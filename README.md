@@ -30,6 +30,9 @@ Before modding your game, you will need to do the following:
 This section will provide instructions for completing the aformentioned tasks.
 
 ### Setting up Skyrim Special Edition
+
+Skyrim will need a clean installation and configuration before modding; 
+
 #### Uninstalling the Game
 #### Moving your Steam Directory
 #### Installing the Game
