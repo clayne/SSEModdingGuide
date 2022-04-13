@@ -6,8 +6,8 @@ This document is a guide that will intruct you on setting up and modding the Ste
 
 By the end of this document you should be able to:
 * Setup your copy of Skyrim to function with mods.
-* Learn the functions of Mod Organizer 2, a program designed to organize and activate mods.
-* Navigate and use Nexus Mods, a website that hosts mods for Skyrim.
+* Learn the functions of Mod Organizer 2(MO2), a program designed to organize and activate mods.
+* Navigate and use Nexus Mods (Nexus for short), a website that hosts mods for Skyrim.
 * Download and Install mods using the aformentioned program and website.
 * Build a stable Skyrim experience with essential mods.
 
@@ -20,9 +20,23 @@ While previous modding experience is not necessary for this document, you are ex
 * The latest GPU drivers
 * A file archiver (7-Zip, WinRAR, etc.) 
 
-test
 
-## Preparations for Modding
+## Preparations 
+Before modding your game, you will need to do the following:
+1. Install SSE outside of a Windows protected folder (Program Files, Program Files (x86), etc.).
+2. Setup a Nexus Account.
+3. Download and install Mod Organizer 2.
+
+This section will provide instructions for completing the aformentioned tasks.
+
+### Setting up Skyrim Special Edition
+#### Uninstalling the Game
+#### Moving your Steam Directory
+#### Installing the Game
+
+### Creating a Nexus Mods Account
+### Installing Mod Organizer 2
+
 ## Overview of Mod Organizer 2 (MO2)
 ## Introduction to Nexus Mods
 ## Downloading and Installing Mods
