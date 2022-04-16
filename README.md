@@ -2,7 +2,7 @@
 
 # Skyrim Special Edition: Introduction to Modding
 ## Preface
-This document is a guide that will intruct you on setting up and modding the Steam version of Skyrim Special Edition (SSE). This document is intended for beginners, so it is vital that you read and follow all instructions carefully.
+This document will intruct you on setting up and modding the Steam version of Skyrim Special Edition (SSE). This document is intended for beginners, so it is vital that you read and follow all instructions carefully.
 
 By the end of this document you should be able to:
 * Setup your copy of Skyrim to function with mods.
