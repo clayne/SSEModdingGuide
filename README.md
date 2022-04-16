@@ -22,19 +22,26 @@ While previous modding experience is not necessary for this document, you are ex
 
 
 ## Preparations 
-Before modding your game, you will need to do the following:
+This section will teach you how to prepare SSE for modding.
+
+Before adding any mods to your game, you will need to do the following:
 1. Install SSE outside of a Windows protected folder (Program Files, Program Files (x86), etc.).
 2. Setup a Nexus Account.
 3. Download and install Mod Organizer 2.
 
-This section will provide instructions for completing the aformentioned tasks.
 
 ### Setting up Skyrim Special Edition
+You will need to ensure that your copy of SSE is outside of a Windows protected folder. Windows is very protective when you try to edit anything inside of it.
 
-Skyrim will need a clean installation and configuration before modding; 
-
-#### Uninstalling the Game
 #### Moving your Steam Directory
+By default, your Steam directory will be placed in:
+
+**C:\Program Files(x86)\Steam\SteamApps\Common**
+
+To move your Steam directory:
+
+1. In your Steam client, click **Steam** > **Settings**.
+
 #### Installing the Game
 
 ### Creating a Nexus Mods Account
