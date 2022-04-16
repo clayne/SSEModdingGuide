@@ -46,11 +46,31 @@ To move your Steam directory:
 
 2. Click **Downloads** > **Steam Library Folder**.
 3. Click **Add Library Folder**. You will open a Steam file explorer 
-4. Navigate the explorer to a location not protected by Windows, preferable in the root directory of your hard drive.
+4. Navigate the explorer to a location not protected by Windows, preferably in the root directory of your hard drive.
+5. Click **New Folder**.
+6. Enter the name of your new folder, then click **OK**.
+7. Click the **folder you created**, then click **Select**.
+
+Your Steam games are now placed in a new location.
 
 #### Installing the Game
+```
+NOTE: If you have already installed and played Skyrim, skip this section.
+```
+1. Open Steam and go to your **Library**
+2. Download and install **Skyrim Special Edition** 
+3. Run SSE 
+4. Exit the game once you reach the main menu. (This will generate a configuration(ini) file for SSE)
 
 ### Creating a Nexus Mods Account
+
+Most of your mods and tools will come from Nexus, a website that hosts thousands of community made mods. You cannot download anything from the website without a Nexus account.
+
+To create a Nexus account:
+1. Navigate to the [Nexus Mods](https://www.nexusmods.com/) website.
+2. Click **Register** in the top right corner of the website.
+3. Follow the instructions provided by the website.
+
 ### Installing Mod Organizer 2
 
 ## Overview of Mod Organizer 2 (MO2)
