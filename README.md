@@ -73,9 +73,21 @@ To create a Nexus account:
 
 ### Installing Mod Organizer 2
 
-Mod Organizer 2 (MO2) is a program that will download and manage mod files for you.  
+Mod Organizer 2 (MO2) is a program that will download and manage mod files for you. See [Introduction to Nexus Mods](https://github.com/CDimang/SSEModdingGuide/edit/main/README.md#introduction-to-nexus-mods) for more info.
+
+1. Navigate to MO2's [page on Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files).
+2. Click the **Files** tab.
+3. Look for **Mod Organizer 2**, then click **Manual Download**. 
+4. Click **Slow Download**.
+5. Navigate to the download location and double click the installer.
+6. Follow the procedures provided by the installer.  
 
 ## Overview of Mod Organizer 2 (MO2)
+
+MO2 is a program used to organize, install, and manage mods for popular games such as Fallout or The Elder Scrolls.
+
+Rather than tampering with the game's files, MO2 manages mods by separating them into an isolated folder, functioning as a virtual directory. The game will read files from MO2 rather than its own directory, tricking the game into thinking it's loading its own directory. Because the mods are isolated in their own folder, disabling and enabling mods can be done with a click of a button. 
+
 ## Introduction to Nexus Mods
 ## Downloading and Installing Mods
 ## Essential Mods for Skyrim
