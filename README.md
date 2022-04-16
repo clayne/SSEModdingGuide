@@ -64,7 +64,7 @@ NOTE: If you have already installed and played Skyrim, skip this section.
 
 ### Creating a Nexus Mods Account
 
-Most of your mods and tools will come from Nexus, a website that hosts thousands of community made mods. You cannot download anything from the website without a Nexus account.
+Most of your mods and tools will come from Nexus Mods (Nexus), a website that hosts thousands of community made mods. You cannot download anything from the website without a Nexus account.
 
 To create a Nexus account:
 1. Navigate to the [Nexus Mods](https://www.nexusmods.com/) website.
@@ -72,6 +72,8 @@ To create a Nexus account:
 3. Follow the instructions provided by the website.
 
 ### Installing Mod Organizer 2
+
+Mod Organizer 2 (MO2) is a program that will download and manage mod files for you.  
 
 ## Overview of Mod Organizer 2 (MO2)
 ## Introduction to Nexus Mods
