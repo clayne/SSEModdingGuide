@@ -151,6 +151,8 @@ The interface consists of four sections:
 * Executables
 * Plugins
 
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Label%20UI%20nolog.png)
+
 The sections below will explain the functionally of each element.
 
 ### Toolbar
