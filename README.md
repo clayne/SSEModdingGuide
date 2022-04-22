@@ -123,7 +123,7 @@ The following procedures will guide you on setting up your game for MO2:
 3. Supported MO2 games will be displayed in a list. Select a game manage, then click **Next**. 
    If your game does not appear like in the image below, click **Browse** and navigate to your game's executable (.exe) file.
    
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%203%20Game%20manage%20HIGHLIGHT.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%203%20Game%20manage%20HIGHLIGHT.png)
 
 4. Enter the name of your Instance, then click **Next**.
 5. Select or create a folder to serve as the Instance folder. Click **Next**
@@ -132,14 +132,19 @@ TIP: For ease of access, it is recommended to create an Instance folder in the s
 ```
 6. You will need to link your Nexus account to MO2. Click **Connect to Nexus**, your browser will be redirected to a confirmation page.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%204%20Link%20Nexus%20Account.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%204%20Link%20Nexus%20Account.png)
 
 7. Click **Authorize** on the confirmation page 
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/mo2%20nexus%20confirmation.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/mo2%20nexus%20confirmation.png)
 
 8. After you receive a confirmation that Nexus and MO2 are linked, click **Next**.  
 9. A window with all the information you entered (Game choice, Instance location, Nexus account, etc.) will be displayed in a list. After confirming that all the provided information is correct, click **Finish**.
+
+
+### The Interface
+### Toolbar
+#### Tool
 
 ## Introduction to Nexus Mods
 ## Downloading and Installing Mods
