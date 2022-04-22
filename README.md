@@ -143,6 +143,16 @@ TIP: For ease of access, it is recommended to create an Instance folder in the s
 
 
 ### The Interface
+
+The interface consists of four sections:
+
+* Toolbar
+* Installation Panel
+* Executables
+* Plugins
+
+The sections below will explain the functionally of each element.
+
 ### Toolbar
 #### Tool
 
