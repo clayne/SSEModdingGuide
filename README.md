@@ -86,7 +86,31 @@ Mod Organizer 2 (MO2) is a program that will download and manage mod files for y
 
 MO2 is a program used to organize, install, and manage mods for popular games such as Fallout or The Elder Scrolls.
 
-Rather than tampering with the game's files, MO2 manages mods by separating them into an isolated folder, functioning as a virtual directory. The game will read files from MO2 rather than its own directory, tricking the game into thinking it's loading its own directory. Because the mods are isolated in their own folder, disabling and enabling mods can be done with a click of a button. 
+Rather than adding mod files to the game's directory, MO2 manages mods by separating them into an isolated folder, functioning as a virtual directory. The game will read files from MO2 rather than its own directory, tricking the game into thinking it's loading its own directory. With this isolated file system, users can enable or disable mods with a click of a button. In short, the program is designed to streamline the modding process so that users of all experience can mod their own game. 
+
+The features available in MO2 are:
+
+* Isolate mods from the game directory.
+* Enable or Disable mods with a click of a button.
+* Sort mods through numerous criteria.
+* Download content from Nexus through MO2.
+* Present notifications such as updates or warnings for mods.
+* Swap mod configurations seamlessly.
+* Add additional tools or addons for a centralized modding program.
+
+By the end of this section, you should know:
+
+* How to setup your game for MO2
+* How each user-interface (UI) element functions
+* How to apply each UI element into your modding.
+
+### Setting Up MO2
+
+This section will explain the virtual directory, and how to set up your game for MO2.
+
+#### Instances, a Virtual Game Directory
+
+A **Instance** will need to be created everytime you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read it's own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for the Instance is to keep the game's directory as clean as possible, allowing the user to add or delete mods with ease. 
 
 ## Introduction to Nexus Mods
 ## Downloading and Installing Mods
