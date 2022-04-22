@@ -110,7 +110,9 @@ This section will explain the virtual directory, and how to set up your game for
 
 #### Instances, a Virtual Game Directory
 
-A **Instance** will need to be created everytime you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read it's own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for the Instance is to keep the game's directory as clean as possible, allowing the user to add or delete mods with ease. 
+A **Instance** will need to be created everytime you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read it's own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for the Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. 
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Virtual.png)
 
 ## Introduction to Nexus Mods
 ## Downloading and Installing Mods
