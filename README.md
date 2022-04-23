@@ -167,21 +167,47 @@ The Toolbar is a 12 button menu that can:
 * Inform the user of updates, errors, or general information.
 
 
-#### Instane Manager
+#### Instance Manager
+![alt next](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Instance%20Icon.png)
 
-The Instance Manager is where you can create and manage multiple Instances for MO2. 
+The Instance Manager for creating and managing Instances in MO2. This feature is required whenever you want to add or switch games in MO2. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Instance%20ui.png)
 
+The left panel lists all the Instances that you've made. Clicking an item in the list will display additional information regarding the Instance; the table below represents the information that will be displayed.
+
 | Field |Description|   
 |---|---|
-|   |   |   
-|   |   |   
-|   |   |  
+|**Name**   | Name of the selected Instance. You cannot rename the Instance if it is active.  |   
+| **Location**  | Location of the Instance's folder. Clicking **Explore** will direct your file explorer the displayed location. |   
+| **Base Folder**  |  The directory of the Instance. |  
+| **Game**  |  The title of the Instance's game.| 
+| **Game Location**  |  The install location of the managed game. | 
+
+The options to manage your Instances include:
+
+* _Create New Instance_: Adds another game to manage (Refer to [Adding your Game to MO2](https://github.com/CDimang/SSEModdingGuide/edit/main/README.md#adding-your-game-to-mo2) for the procedures). This will be required everytime you want to manage another game with MO2.
+* _Open INI_: Opens the configuration file for the Instance. This option should be left alone.
+* _Delete Instance_: Deletes the selected Instance. A window displaying all associated files will be shown before you can remove the Instance.
+* _Switch to this Instance_: MO2 will restart and switch to the selected Instance.
+
+#### Install From Archive
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Install%20mod%20ICON.png)
+
+The Install From Archive button will open your file explorer to select and install mods. Only mods compressed into a ZIP file can be installed.
+
+```
+TIP: Alternatively, you can click and drag ZIP files into the MO2 window to install.
+```
 
 
-#### Install from Archive
-#### Nexus Mods Link
+#### Browse Mod Page
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20Nexus%20Mod%20Link%20ICON.png)
+
+The Browse Mod Page will direct your web browser to the managed game's section on Nexus Mods (i.e managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
+
 #### Refresh
 #### Tools
 #### Profiles
