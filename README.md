@@ -156,7 +156,29 @@ The interface consists of four sections:
 The sections below will explain the functionally of each element.
 
 ### Toolbar
-#### Tool
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Highlight.png)
+
+The Toolbar is a 12 button menu that can:
+
+* Change the functionality of MO2
+* Customize the UI to the users liking
+* Add additional tools or executables to MO2
+* Inform the user of updates, errors, or general information.
+
+
+#### Instane Manager
+#### Install from Archive
+#### Nexus Mods Link
+#### Refresh
+#### Tools
+#### Profiles
+#### Configuration
+#### Executables
+#### Endorsement
+#### Notification
+#### Update Mod Organizer
+#### Help
 
 ## Introduction to Nexus Mods
 ## Downloading and Installing Mods
