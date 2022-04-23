@@ -171,6 +171,8 @@ The Toolbar is a 12 button menu that can:
 
 The Instance Manager is where you can create and manage multiple Instances for MO2. 
 
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Instance%20ui.png)
+
 | Field |Description|   
 |---|---|
 |   |   |   
