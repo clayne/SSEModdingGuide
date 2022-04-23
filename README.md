@@ -168,6 +168,16 @@ The Toolbar is a 12 button menu that can:
 
 
 #### Instane Manager
+
+The Instance Manager is where you can create and manage multiple Instances for MO2. 
+
+| Field |Description|   
+|---|---|
+|   |   |   
+|   |   |   
+|   |   |  
+
+
 #### Install from Archive
 #### Nexus Mods Link
 #### Refresh
