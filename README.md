@@ -206,10 +206,27 @@ TIP: Alternatively, you can click and drag ZIP files into the MO2 window to inst
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20Nexus%20Mod%20Link%20ICON.png)
 
-The Browse Mod Page will direct your web browser to the managed game's section on Nexus Mods (i.e managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
+The Browse Mod Page button will direct your web browser to the managed game's section on Nexus Mods (i.e managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
 
 #### Refresh
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20refresh%20ICON.png)
+
+The Refresh button will reload MO2. Use this if any changes made to MO2 (Load order change, installed or removed mods, etc.) are not immediately reflected.
+
 #### Tools
+
+The Tools button is for executing additional MO2 plugins and addons. These features expand the functionality of MO2 by providing extra options to modify your games.
+
+The tools available by default are:
+
+* **Bethesda Software Archive (BSA) Packer**: Creates BSA files using resources from the managed game or mods. For general modding, this plugin is not needed. 
+* **Fores New Idles in Skyrim (FNIS)**: A tool that allows Skyrim to have more animations. As of 2020, this plugin has been made obsolete by [Nemesis](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases), a more up to date animation tool.
+* **INI Editor**: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. 
+
+As of the making of this document, most tools in MO2 will be managed by the [Executables] settings.
+
+
+
 #### Profiles
 #### Configuration
 #### Executables
