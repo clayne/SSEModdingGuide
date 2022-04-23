@@ -223,7 +223,7 @@ The tools available by default are:
 * **Fores New Idles in Skyrim (FNIS)**: A tool that allows Skyrim to have more animations. As of 2020, this plugin has been made obsolete by [Nemesis](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases), a more up to date animation tool.
 * **INI Editor**: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. 
 
-As of the making of this document, most tools in MO2 will be managed by the [Executables] settings.
+As of the making of this document, most tools in MO2 will be managed by the [Executables](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executables) settings.
 
 
 
