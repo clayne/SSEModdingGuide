@@ -110,7 +110,7 @@ This section will explain the virtual directory, and how to set up your game for
 
 #### Instances, a Virtual Game Directory
 
-A **Instance** will need to be created everytime you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read it's own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for the Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. 
+A **Instance** will need to be created everytime you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read its own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for the Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Virtual.png)
 
@@ -159,7 +159,7 @@ The sections below will explain the functionally of each element.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Highlight.png)
 
-The Toolbar is a 12 button menu that can:
+The Toolbar is a 12-button menu that can:
 
 * Change the functionality of MO2
 * Customize the UI to the users liking
@@ -186,7 +186,7 @@ The left panel lists all the Instances that you've made. Clicking an item in the
 
 The options to manage your Instances include:
 
-* _Create New Instance_: Adds another game to manage (Refer to [Adding your Game to MO2](https://github.com/CDimang/SSEModdingGuide/edit/main/README.md#adding-your-game-to-mo2) for the procedures). This will be required everytime you want to manage another game with MO2.
+* _Create New Instance_: Adds another game to manage (Refer to [Adding your Game to MO2](https://github.com/CDimang/SSEModdingGuide/edit/main/README.md#adding-your-game-to-mo2) for the procedures). This will be required every time you want to manage another game with MO2.
 * _Open INI_: Opens the configuration file for the Instance. This option should be left alone.
 * _Delete Instance_: Deletes the selected Instance. A window displaying all associated files will be shown before you can remove the Instance.
 * _Switch to this Instance_: MO2 will restart and switch to the selected Instance.
@@ -206,7 +206,7 @@ TIP: Alternatively, you can click and drag ZIP files into the MO2 window to inst
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20Nexus%20Mod%20Link%20ICON.png)
 
-The Browse Mod Page button will direct your web browser to the managed game's section on Nexus Mods (i.e managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
+The Browse Mod Page button will direct your web browser to the managed game's section on Nexus Mods (i.e. managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
 
 #### Refresh
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20refresh%20ICON.png)
@@ -232,7 +232,7 @@ As of the making of this document, most tools are now managed by the [Executable
 Multiple mod/game configurations are managed by profiles. Much like how Instances manage multiple games, profiles will manage multiple configurations of a single game. The purpose of this feature is to allow users to playtest and experiment with numerous mod configurations. 
 
 The following information will be unique to each profile:
-* Installed mods and their current status (Installed/Disabled).
+* Installed mods and their status (Installed/Disabled).
    *  Mods that are enabled in one profile will be disabled in another.
    *  Mods in new profiles are disabled by default.
 * Priority/Load order for installed mods and plugins.
