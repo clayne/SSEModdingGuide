@@ -243,8 +243,13 @@ The image below is the profile manager which allows you to create, delete, and e
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Profile%20Window.png)
 
+The options to manage your profile include:
 
-
+* _Create_: Create a new profile. Installed mods will be disabled by default in the profile.
+* _Copy_: Copy the selected profile
+* _Remove_: Delete the selected profile. This function cannot be used on the active profile.
+* _Rename_: Change the name of an existing profile.
+* _INI and Save Games setting_: Options to make the INI and Save Game files unique to each profile. By default, Save Games is disabled and INI is enabled.
 
 #### Configuration
 #### Executables
