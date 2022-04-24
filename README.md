@@ -166,6 +166,7 @@ The Toolbar is a 12-button menu that can:
 * Add additional tools or executables to MO2
 * Inform the user of updates, errors, or general information.
 
+This section will explain each button and how to use them.
 
 #### Instance Manager
 ![alt next](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Instance%20Icon.png)
