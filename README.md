@@ -196,7 +196,7 @@ The options to manage your Instances include:
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Install%20mod%20ICON.png)
 
-The Install From Archive button will open your file explorer to select and install mods. Only mods compressed into a ZIP file can be installed.
+The Install From Archive button will open your file explorer to select and install downloaded mods. Only mods compressed into a ZIP file can be installed.
 
 ```
 TIP: Alternatively, you can click and drag ZIP files into the MO2 window to install.
@@ -216,6 +216,8 @@ The Refresh button will reload MO2. Use this if any changes made to MO2 (Load or
 
 #### Tools
 
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Tools%20ICON.png)
+
 The Tools button is for executing additional MO2 plugins and addons. These features expand the functionality of MO2 by providing extra options to modify your games.
 
 The tools available by default are:
@@ -230,6 +232,8 @@ As of the making of this document, most tools are now managed by the [Executable
 
 #### Profiles
 
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Profile%20ICON.png)
+
 Multiple mod/game configurations are managed by profiles. Much like how Instances manage multiple games, profiles will manage multiple configurations of a single game. The purpose of this feature is to allow users to playtest and experiment with numerous mod configurations. 
 
 The following information will be unique to each profile:
@@ -240,7 +244,7 @@ The following information will be unique to each profile:
 * Configuration files (If checked in profile settings).
 * Save files for managed game (If checked in profile settings).
 
-The image below is the profile manager which allows you to create, delete, and edit your profiles. Selecting any of the profiles in the list, then clicking **Select** will swap MO2 to the selected profile, mirroring any configurations that were set in said profile. 
+The image below is the profile manager which allows you to create, delete, and edit your profiles. Selecting any of the profiles in the list, then clicking **Select** will swap MO2 to the selected profile, mirroring any configurations set in the selected profile. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Profile%20Window.png)
 
@@ -253,6 +257,27 @@ The options to manage your profile include:
 * _INI and Save Games setting_: Options to make the INI and Save Game files unique to each profile. By default, Save Games is disabled and INI is enabled.
 
 #### Configuration
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20ICOn.png)
+
+The Configuration settings has 8 tabs that controls the functionality of MO2 (i.e. languages, mod color coordinations, folder directory, etc.). 
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20window.png)
+
+The table below represents what each tab controls.
+
+| Tab |Description|   
+|---|---|
+|**General**   | Options for changing the displayed language, updating MO2, and setting miscellaneous options such as centering text. |   
+| **Theme**  | Color settings that highlight enabled mods based on specific conditions. For more information, see FILL |   
+| **Mod List**  | Additional settings for the Installation Panel such as checking for mod updates, sorting the mod list, and displaying icons based on specific conditions. |  
+| **Paths**  | View and change the directories setup for MO2 | 
+| **Nexus**  | Displays information for the linked Nexus Mod's account. You may also link and unlink your Nexus account from here.  | 
+| **Plugins**  | Lists all games and plugins that are supported in MO2  | 
+| **Workaround**  | Game settings such as forced offline mode to disable online features, or always enabling the games default files when playing. For the purpose of this guide, the Workaround tab should be ignored.  | 
+| **Diagnostic**  |   | 
+
+
 #### Executables
 #### Endorsement
 #### Notification
