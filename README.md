@@ -221,13 +221,31 @@ The tools available by default are:
 
 * **Bethesda Software Archive (BSA) Packer**: Creates BSA files using resources from the managed game or mods. For general modding, this plugin is not needed. 
 * **Fores New Idles in Skyrim (FNIS)**: A tool that allows Skyrim to have more animations. As of 2020, this plugin has been made obsolete by [Nemesis](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases), a more up to date animation tool.
-* **INI Editor**: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. 
+* **INI Editor**: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. The image below is an example of viewing Skyrim's ini files.
 
-As of the making of this document, most tools in MO2 will be managed by the [Executables](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executables) settings.
-
-
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20ini%20window.png)
+   
+As of the making of this document, most tools are now managed by the [Executables](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executables) feature.
 
 #### Profiles
+
+Multiple mod/game configurations are managed by profiles. Much like how Instances manage multiple games, profiles will manage multiple configurations of a single game. The purpose of this feature is to allow users to playtest and experiment with numerous mod configurations. 
+
+The following information will be unique to each profile:
+* Installed mods and their current status (Installed/Disabled).
+   *  Mods that are enabled in one profile will be disabled in another.
+   *  Mods in new profiles are disabled by default.
+* Priority/Load order for installed mods and plugins.
+* Configuration files (If checked in profile settings).
+* Save files for managed game (If checked in profile settings).
+
+The image below is the profile manager which allows you to create, delete, and edit your profiles. Selecting any of the profiles in the list, then clicking **Select** will swap MO2 to the selected profile, mirroring any configurations that were set in said profile. 
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Profile%20Window.png)
+
+
+
+
 #### Configuration
 #### Executables
 #### Endorsement
