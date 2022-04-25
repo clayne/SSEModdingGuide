@@ -1,7 +1,7 @@
 # SSEModdingGuide
 
 # Skyrim Special Edition: Introduction to Modding
-## Preface
+# Preface
 This document will instruct you on setting up and modding the Steam version of Skyrim Special Edition (SSE). This document is intended for beginners, so it is vital that you read and follow all instructions carefully.
 
 By the end of this document, you should be able to:
@@ -11,7 +11,7 @@ By the end of this document, you should be able to:
 * Download and Install mods using the aforementioned program and website.
 * Build a stable Skyrim experience with essential mods.
 
-### Requirements/Assumptions
+## Requirements/Assumptions
 While previous modding experience is not necessary for this document, you are expected to be knowledgeable on basic computer functions. This document will require:
 * The Steam edition of SSE
 * Windows 7 or higher (64-bit)
@@ -21,7 +21,7 @@ While previous modding experience is not necessary for this document, you are ex
 * A file archiver (7-Zip, WinRAR, etc.) 
 
 
-## Preparations 
+# Preparations 
 This section will teach you how to prepare SSE for modding.
 
 Before adding any mods to your game, you will need to do the following:
@@ -30,10 +30,10 @@ Before adding any mods to your game, you will need to do the following:
 3. Download and install Mod Organizer 2.
 
 
-### Setting up Skyrim Special Edition
+## Setting up Skyrim Special Edition
 You will need to ensure that your copy of SSE is outside of a Windows protected folder. Windows is very protective when you try to edit anything inside of it.
 
-#### Moving your Steam Directory
+### Moving your Steam Directory
 By default, your Steam directory will be placed in:
 
 **C:\Program Files(x86)\Steam\SteamApps\Common**
@@ -53,7 +53,7 @@ To move your Steam directory:
 
 Your Steam games are now placed in a new location.
 
-#### Installing the Game
+### Installing the Game
 ```
 NOTE: If you have already installed and played Skyrim, skip this section.
 ```
@@ -62,7 +62,7 @@ NOTE: If you have already installed and played Skyrim, skip this section.
 3. Run SSE 
 4. Exit the game once you reach the main menu. (This will generate a configuration(ini) file for SSE)
 
-### Creating a Nexus Mods Account
+## Creating a Nexus Mods Account
 
 Most of your mods and tools will come from Nexus Mods (Nexus), a website that hosts thousands of community made mods. You cannot download anything from the website without a Nexus account.
 
@@ -71,7 +71,7 @@ To create a Nexus account:
 2. Click **Register** in the top right corner of the website.
 3. Follow the instructions provided by the website.
 
-### Installing Mod Organizer 2
+## Installing Mod Organizer 2
 
 Mod Organizer 2 (MO2) is a program that will download and manage mod files for you. See [Introduction to Nexus Mods](https://github.com/CDimang/SSEModdingGuide/edit/main/README.md#introduction-to-nexus-mods) for more info.
 
@@ -82,7 +82,7 @@ Mod Organizer 2 (MO2) is a program that will download and manage mod files for y
 5. Navigate to the download location and double click the installer.
 6. Follow the procedures provided by the installer.  
 
-## Overview of Mod Organizer 2 (MO2)
+# Overview of Mod Organizer 2 (MO2)
 
 MO2 is a program used to organize, install, and manage mods for popular games such as Fallout or The Elder Scrolls.
 
@@ -104,24 +104,24 @@ By the end of this section, you should know:
 * How each user-interface (UI) element functions
 * How to apply each UI element into your modding.
 
-### Setting Up MO2
+## Setting Up MO2
 
 This section will explain the virtual directory, and how to set up your game for MO2.
 
-#### Instances, a Virtual Game Directory
+### Instances, a Virtual Game Directory
 
 A **Instance** will need to be created everytime you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read its own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for the Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Virtual.png)
 
-#### Adding your Game to MO2
+### Adding your Game to MO2
 
 The following procedures will guide you on setting up your game for MO2:
 
 1. Open MO2
 2. You will be asked to create an Instance. Click **Create a Global Instance**
-3. Supported MO2 games will be displayed in a list. Select a game manage, then click **Next**. 
-   If your game does not appear like in the image below, click **Browse** and navigate to your game's executable (.exe) file.
+3. Supported MO2 games will be displayed in a list. Select **Skyrim Special Edition**, then click **Next**. 
+   If SSE does not appear like in the image below, click **Browse** and navigate to your game's executable (.exe) file.
    
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%203%20Game%20manage%20HIGHLIGHT.png)
 
@@ -139,10 +139,10 @@ TIP: For ease of access, it is recommended to create an Instance folder in the s
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/mo2%20nexus%20confirmation.png)
 
 8. After you receive a confirmation that Nexus and MO2 are linked, click **Next**.  
-9. A window with all the information you entered (Game choice, Instance location, Nexus account, etc.) will be displayed in a list. After confirming that all the provided information is correct, click **Finish**.
+9. A window with all the information you entered (Game choice, Instance location, Nexus account, etc.) will be displayed. After confirming that all the provided information is correct, click **Finish**.
 
 
-### The Interface
+## The Interface
 
 The interface consists of four sections:
 
@@ -155,7 +155,7 @@ The interface consists of four sections:
 
 The sections below will explain the functionally of each element.
 
-### Toolbar
+## Toolbar
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Highlight.png)
 
@@ -168,7 +168,7 @@ The Toolbar is a 12-button menu that can:
 
 This section will explain each button and how to use them.
 
-#### Instance Manager
+### Instance Manager
 ![alt next](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Instance%20Icon.png)
 
 The Instance Manager for creating and managing Instances in MO2. This feature is required whenever you want to add or switch games in MO2. 
@@ -187,12 +187,12 @@ The left panel lists all the Instances that you've made. Clicking an item in the
 
 The options to manage your Instances include:
 
-* _Create New Instance_: Adds another game to manage (Refer to [Adding your Game to MO2](https://github.com/CDimang/SSEModdingGuide/edit/main/README.md#adding-your-game-to-mo2) for the procedures). This will be required every time you want to manage another game with MO2.
-* _Open INI_: Opens the configuration file for the Instance. This option should be left alone.
-* _Delete Instance_: Deletes the selected Instance. A window displaying all associated files will be shown before you can remove the Instance.
-* _Switch to this Instance_: MO2 will restart and switch to the selected Instance.
+* _Create New Instance_ - Adds another game to manage (Refer to [Adding your Game to MO2](https://github.com/CDimang/SSEModdingGuide/edit/main/README.md#adding-your-game-to-mo2) for the procedures). This will be required every time you want to manage another game with MO2.
+* _Open INI_ - Opens the configuration file for the Instance. This option should be left alone.
+* _Delete Instance_ - Deletes the selected Instance. A window displaying all associated files will be shown before you can remove the Instance.
+* _Switch to this Instance_ - MO2 will restart and switch to the selected Instance.
 
-#### Install From Archive
+### Install From Archive
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Install%20mod%20ICON.png)
 
@@ -203,18 +203,18 @@ TIP: Alternatively, you can click and drag ZIP files into the MO2 window to inst
 ```
 
 
-#### Browse Mod Page
+### Browse Mod Page
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20Nexus%20Mod%20Link%20ICON.png)
 
 The Browse Mod Page button will direct your web browser to the managed game's section on Nexus Mods (i.e. managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
 
-#### Refresh
+### Refresh
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20refresh%20ICON.png)
 
 The Refresh button will reload MO2. Use this if any changes made to MO2 (Load order change, installed or removed mods, etc.) are not immediately reflected.
 
-#### Tools
+### Tools
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Tools%20ICON.png)
 
@@ -222,15 +222,15 @@ The Tools button is for executing additional MO2 plugins and addons. These featu
 
 The tools available by default are:
 
-* **Bethesda Software Archive (BSA) Packer**: Creates BSA files using resources from the managed game or mods. For general modding, this plugin is not needed. 
-* **Fores New Idles in Skyrim (FNIS)**: A tool that allows Skyrim to have more animations. As of 2020, this plugin has been made obsolete by [Nemesis](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases), a more up to date animation tool.
-* **INI Editor**: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. The image below is an example of viewing Skyrim's ini files.
+* _Bethesda Software Archive (BSA) Packer_: Creates BSA files using resources from the managed game or mods. For general modding, this plugin is not needed. 
+* _Fores New Idles in Skyrim_ (FNIS): A tool that allows Skyrim to have more animations. As of 2020, this plugin has been made obsolete by [Nemesis](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases), a more up to date animation tool.
+* _INI Editor_: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. The image below is an example of viewing Skyrim's ini files.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20ini%20window.png)
    
 As of the making of this document, most tools are now managed by the [Executables](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executables) feature.
 
-#### Profiles
+### Profiles
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Profile%20ICON.png)
 
@@ -250,17 +250,17 @@ The image below is the profile manager which allows you to create, delete, and e
 
 The options to manage your profile include:
 
-* _Create_: Create a new profile. Installed mods will be disabled by default in the profile.
-* _Copy_: Copy the selected profile
-* _Remove_: Delete the selected profile. This function cannot be used on the active profile.
-* _Rename_: Change the name of an existing profile.
-* _INI and Save Games setting_: Options to make the INI and Save Game files unique to each profile. By default, Save Games is disabled and INI is enabled.
+* _Create_ - Create a new profile. Installed mods will be disabled by default in the profile.
+* _Copy_ - Copy the selected profile
+* _Remove_ - Delete the selected profile. This function cannot be used on the active profile.
+* _Rename_ - Change the name of an existing profile.
+* _INI and Save Games setting_ - Options to make the INI and Save Game files unique to each profile. By default, Save Games is disabled and INI is enabled.
 
-#### Configuration
+### Configuration
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20ICOn.png)
 
-The Configuration settings has 8 tabs that controls the functionality of MO2 (i.e. languages, mod color coordinations, folder directory, etc.). 
+The Configuration settings has 8 tabs that controls the functionality of MO2 (i.e. languages, mod color coordinations, folder directory, etc.). Use this window to tailor MO2 to your liking. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20window.png)
 
@@ -275,16 +275,54 @@ The table below represents what each tab controls.
 | **Nexus**  | Displays information for the linked Nexus Mod's account. You may also link and unlink your Nexus account from here.  | 
 | **Plugins**  | Lists all games and plugins that are supported in MO2  | 
 | **Workaround**  | Game settings such as forced offline mode to disable online features, or always enabling the games default files when playing. For the purpose of this guide, the Workaround tab should be ignored.  | 
-| **Diagnostic**  |   | 
+| **Diagnostic**  | Settings for crash logs, a text file that is automatically generated by MO2 when your game closes due to a crash. The log will contain the mods or scripts that were running at the time of the crash, this is to help you diagnose the potential problem. This file can be accessed by opening the **Overwrite** folder at the bottom of the Installation Panel.  | 
+
+### Executables
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Execute%20ICON.png)
+
+The Executables is for managing programs added to MO2. When adding a program to MO2, the added program will automatically associated itself with the managed game (i.e. modding tools that edit files will automatically direct iself to the game's directory). The addition of executables is meant to make MO2 a central hub for modding your games. These additional programs can include:
+
+* Games 
+* Tools (Editing programs such as Skyrim Special Edition Edit (SSEEdit)
+* Patchers
+* Virtual Folders
+
+The figure below is an example of an Executables window on a fresh SSE Instance. The left side lists all programs added to MO2 and the right side displays information associated with the selected program such as the file location. These programs are shared between all profiles. 
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20execute%20menu.png)
+
+The options to manage your programs is located above the list. These functions are:
+
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20Add.png) _Add_ - Opens the file explorer to add a supported executable to MO2.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20Remove.png) _Remove_ - Remove the selected executable from MO2.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20move%20ex.png) _Rearrange List_ - Move the selected executable up or down the list.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/execute%20add%20default%20plugin.png) _Add Default Plugins_ - Adds executables based on the Instance's game (i.e. adds the Skyrim executable file if the Instance is based on Skyrim). By default the Instance will have the managed game's executables setup.
+
+To access your executables, see Executable Menu LINK THIS LATER
+
+The image below highlights additional settings for the executables. 
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20execute%20menu%20high.png)
+
+These additional settings include:
+
+* _Overwrite Steam AppID_ - Allows the game's Steam ID to be overwritten (If applicable).
+* _Create Files in mod instead of overwrite_ - Files that are generated by mods will be placed into their respective mod folders instead of the Overwrite folder.
+* _Force Load Libraries_ - The program will automatically execute configuration libraries (DLL files) when running the executable.
+* _Use application's icon for desktop shortcut_ - Use the executable's icon when creating shortcuts
+* _Hide in user interface_ - The selected executable will be hidden in MO2.
+
+For the purpose of this guide, the aforementioned settings should be kept on their default settings.
 
 
-#### Executables
-#### Endorsement
-#### Notification
-#### Update Mod Organizer
-#### Help
 
-## Introduction to Nexus Mods
-## Downloading and Installing Mods
-## Essential Mods for Skyrim
-## Closing Thoughts 
+### Endorsement
+### Notification
+### Update Mod Organizer
+### Help
+
+# Introduction to Nexus Mods
+# Downloading and Installing Mods
+# Essential Mods for Skyrim
+# Closing Thoughts 
