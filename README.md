@@ -270,7 +270,7 @@ The table below represents what each tab controls.
 |---|---|
 |**General**   | Options for changing the displayed language, updating MO2, and setting miscellaneous options such as centering text. |   
 | **Theme**  | Color settings that highlight enabled mods based on specific conditions. For more information, see FILL |   
-| **Mod List**  | Additional settings for the Installation Panel such as checking for mod updates, sorting the mod list, and displaying icons based on specific conditions. |  
+| **ModList**  | Additional settings for the Installation Panel such as checking for mod updates, sorting the modlist, and displaying icons based on specific conditions. |  
 | **Paths**  | View and change the directories setup for MO2 | 
 | **Nexus**  | Displays information for the linked Nexus Mod's account. You may also link and unlink your Nexus account from here.  | 
 | **Plugins**  | Lists all games and plugins that are supported in MO2  | 
@@ -315,12 +315,73 @@ These additional settings include:
 
 For the purpose of this guide, the aforementioned settings should be kept on their default settings.
 
-
-
 ### Endorsement
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20endorse.png)
+
+Nexus Mods uses an endorsement system which influences how much exposure a mod will get on the website based on how many users endorse the mod. This button is only for endorsing MO2 on Nexus. 
+
 ### Notification
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20warning%20high%202.png)
+
+The Notification icon will inform you of any potential problems in your MO2 configuration. Click the icon to open a window that will explain the problem and the potential fix for it. The image below is an example of the notification window explaining the issue. Having a notification doesn't mean that your modded game won't work, but you should try to resolve the issues as they appear.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20warning%20desc.png)
+
 ### Update Mod Organizer
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20update%20not%20ICON.png)
+
+If available, clicking the Update Mod Organizer button will update MO2 to the latest version.
+
 ### Help
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20help%20ICON.png)
+
+The Help button is a menu that will provide additional resources to teach you about MO2. The table below represents the resources available to you. 
+
+| Resource |Description|   
+|---|---|
+|**Help on UI**   | Provides a quick overview of MO2's user-interface.  |   
+| **Documentation**  | Directs your web browser to MO2's website to view the documentation available for MO2|   
+| **Chat on Discord**  | Provides a link to the MO2 official Discord server. Here you can communicate with developers and other users for help. |  
+| **Report Issue**  | Directs the web browser to MO2's bug report forum. | 
+| **Tutorial**  | Starts the built-in tutorial that will explain MO2 to you. You cannot stop the tutorial once it starts.  | 
+| **About**  | Displays copyright information, list of contributers, and software used in MO2.  | 
+| **About Qt**  | Copyright and general information for Qt, a C++ toolkit used to develop MO2.  | 
+
+## Installation Panel
+
+The Installation Panel is where all installed mods will be listed. You will be able to enable, disable, organize, and sort mods in this area. This section of the document will explain each UI element of the panel and how to use each element for your mods.
+
+### Interface Elements
+
+The figure below highlights the important components of the panel.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Installation%20panel%20highlight%20labels%202.png)
+
+The highlighted components in the figure above is for the following:
+
+* _Profile Menu_ - A dropdown menu to quickly swap profiles.
+* _Mod Options_ - Modlist options that includes installing a mod, dividing the modlist by categories, and enabling or disabling mods in the list.
+* _File Explorer_ - Opens your file explorer for the Instance or managed game.
+* _Restore/Create Backup_ - Saves the profile's modlist to be loaded at a future date. Loading a saved modlist will overwrite your modlist. The information saved includes:
+   *  All installed mods.
+   *  The order of the installed mods.
+   *  The status (enabled or disabled) of the mods at the time of saving.
+   *  Flags and notes that were active at the time of saving. 
+* _Active Mod Count_ - Displays the number of enabled mods.
+* _ModList_ - Lists all installed mods. More information on the list will be explained in the next section.
+* _Search Bar_ - A search filter that will update the list as you input characters.
+* _Mod Filter_ - Opens a side panel with opens to show or hide mods based on specified conditions. The image below is an example of using the filter. Clicking the checkboxes will cycle through **show** or **hide** mods (Indicated by a green checkmark or red dash respectively). 
+
+
+### Sorting the ModList
+### ModList Color Highlights
+### Mod Priority/Load Order
+### Overwrite Folder
+
 
 # Introduction to Nexus Mods
 # Downloading and Installing Mods
