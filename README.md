@@ -372,12 +372,25 @@ The highlighted components in the figure above is for the following:
    *  The status (enabled or disabled) of the mods at the time of saving.
    *  Flags and notes that were active at the time of saving. 
 * _Active Mod Count_ - Displays the number of enabled mods.
-* _ModList_ - Lists all installed mods. More information on the list will be explained in the next section.
-* _Search Bar_ - A search filter that will update the list as you input characters.
-* _Mod Filter_ - Opens a side panel with opens to show or hide mods based on specified conditions. The image below is an example of using the filter. Clicking the checkboxes will cycle through **show** or **hide** mods (Indicated by a green checkmark or red dash respectively). 
+* _ModList_ - Lists all installed mods. Mods listed here will display their name, conflicts, flags, category, version number, and priority number. The checkboxes to the left of the mod's name will indicate the mods status via checkmark for active or blank for disabled. More information on the list will be explained in the next section.
 
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Modlist%20mods.png)
+  
+* _Search Bar_ - A search filter that will update the list as you input characters.
+* _Mod Filter_ - Opens a side panel with options to show or hide mods based on specified conditions. The image below is an example of using the filter with three scenarios (A, B, and C respectively). Clicking the checkboxes will cycle through **show** or **hide** mods (Indicated by a green checkmark or red dash respectively).
+ 
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/filter%203%20example%203%20small.png)
+   
+   To further elaborate on the image above:
+   
+   * Scenario A has the **Active Mods** filter disabled, so every mod in the list is visible.
+   * Scenario B has **Active Mods** set to **Show**, so only mods that are active are visible.
+   * Scenario C has **Active Mods** set to **Hide**, so mods that are active are hidden.
 
 ### Sorting the ModList
+
+Keeping your modlist organized will help you keep track of every mod you install. 
+
 ### ModList Color Highlights
 ### Mod Priority/Load Order
 ### Overwrite Folder
