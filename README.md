@@ -6,7 +6,7 @@ This document will instruct you on setting up and modding the Steam version of S
 
 By the end of this document, you should be able to:
 * Setup your copy of Skyrim to function with mods.
-* Learn the functions of Mod Organizer 2(MO2), a program designed to organize and activate mods.
+* Learn the functions of Mod Organizer 2 (MO2), a program designed to organize and activate mods.
 * Navigate and use Nexus Mods (Nexus for short), a website that hosts mods for Skyrim.
 * Download and Install mods using the aforementioned program and website.
 * Build a stable Skyrim experience with essential mods.
@@ -389,7 +389,10 @@ The highlighted components in the figure above is for the following:
 
 ### Sorting the ModList
 
-Keeping your modlist organized will help you keep track of every mod you install. 
+Organizing your modlist will help you keep track of your installed mods, especially if you decide to install a large quantity of mods.  
+
+You can rearrange your modlist by clicking and dragging mods through the list.
+
 
 ### ModList Color Highlights
 ### Mod Priority/Load Order
