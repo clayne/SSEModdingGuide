@@ -397,7 +397,7 @@ One way to sort your mods is by clicking the columns at the top of the list; you
 
 The table below represents the available columns to sort by.
 
-| Category |Description|   
+| Column |Description|   
 |---|---|
 |**Mod Name**   | Modlist is organized alphabetically. |   
 |**Conflict**   | Modlist is organized based on which mods are conflicting with one another. This usually occurs when mods have files of the same name. |   
@@ -428,7 +428,9 @@ The flags that are displayed include:
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/flag%20wrong.png) _Wrong Game/Version_ - Mod is for a different game or game version (i.e. Legendary Edition Skyrim mod vs Special Edition Skyrim mod). 
 
 
-#### Custom Categories
+#### Assigning Custom Categories
+
+Mods can be assigned to any category (Mod categories such as gameplay, immersion, bugfix, etc.) available in MO2.
 
 
 ### ModList Color Highlights
