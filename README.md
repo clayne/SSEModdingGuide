@@ -399,18 +399,34 @@ The table below represents the available columns to sort by.
 
 | Category |Description|   
 |---|---|
-|**Mod Name**   | Mod list will be sorted alphabetically. |   
-| **Flags**  | Notification icons that will only display when specific conditions are met. For more information, see Flags LINK THIS LATER |   
-| **Content**  |  |  
-| **Version Number**  |  | 
-| **Priority**  |  | 
+|**Mod Name**   | Modlist is organized alphabetically. |   
+|**Conflict**   | Modlist is organized based on which mods are conflicting with one another. This usually occurs when mods have files of the same name. |   
+| **Flags**  | Modlist is organized based on the icons assigned to them. Notification icons will only display when specific conditions are met. For more information, see Flags LINK THIS LATER |   
+| **Content**  | Modlist is organized based on the category assigned by their author. If the mod has not been assigned a category, it will be set towards the bottom of the list. See Custom Categories to learn about assigning categories to mods. |  
+| **Version Number**  | Modlist is organized based on their version number and if they are up to date.| 
+| **Priority**  | Modlist is organized based on their assigned priority number. This number determines the order in which mods will load when opening the managed game. For more details on Priority, see Mod Priority/Load Order. | 
 
+You can also rearrange your modlist by clicking and dragging mods through the list. This method for organizing mods should generally be done when you want to place a mod in a specific location.
 
-
-You can also rearrange your modlist by clicking and dragging mods through the list.  
-
-
+```
+NOTE: You cannot click and drag mods unless your modlist is sorted by Priority.
+```
 #### Flags
+
+Flags are notifications that appear when the associated mod has met a specific conditions. These flags are designed to notify you if mods are interacting with one another or meeting a criteria that should be addressed. 
+
+The flags that are displayed include:
+
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win.png) _Conflict Win_: Mod is overwriting files from another mod.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20lose.png) _Conflict Lose_: Mod has its files being overwritten by another mod
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win%20and%20lose.png) _Conflict Win Lose_:
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20invalid%20file%20mod.png) _Invalid_:
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20unendorsed.png) _Unendorsed_:
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20personal%20note.png) _Note Added_:
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20needs%20update.png) _Outdated_
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/flag%20wrong.png) _Wrong Game/Version_:
+
+
 #### Custom Categories
 
 
