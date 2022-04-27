@@ -391,7 +391,24 @@ The highlighted components in the figure above is for the following:
 
 Organizing your modlist will help you keep track of your installed mods, especially if you decide to install a large quantity of mods.  
 
-You can rearrange your modlist by clicking and dragging mods through the list.
+One way to sort your mods is by clicking the columns at the top of the list; your mods will be arranged based on the column selected. By default, your modlist will be sorted by Priority.  
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/sort%20installation.png)
+
+The table below represents the available columns to sort by.
+
+| Category |Description|   
+|---|---|
+|**Mod Name**   | Mod list will be sorted alphabetically. |   
+| **Flags**  | Notification icons that will only display when specific conditions are met. |   
+| **Content**  |  |  
+| **Version Number**  |  | 
+| **Priority**  |  | 
+
+
+
+
+You can also rearrange your modlist by clicking and dragging mods through the list.  
 
 
 ### ModList Color Highlights
