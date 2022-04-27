@@ -400,15 +400,18 @@ The table below represents the available columns to sort by.
 | Category |Description|   
 |---|---|
 |**Mod Name**   | Mod list will be sorted alphabetically. |   
-| **Flags**  | Notification icons that will only display when specific conditions are met. |   
+| **Flags**  | Notification icons that will only display when specific conditions are met. For more information, see Flags LINK THIS LATER |   
 | **Content**  |  |  
 | **Version Number**  |  | 
 | **Priority**  |  | 
 
 
 
-
 You can also rearrange your modlist by clicking and dragging mods through the list.  
+
+
+#### Flags
+#### Custom Categories
 
 
 ### ModList Color Highlights
