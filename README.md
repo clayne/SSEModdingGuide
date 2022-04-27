@@ -413,7 +413,7 @@ NOTE: You cannot click and drag mods unless your modlist is sorted by Priority.
 ```
 #### Flags
 
-Flags are notifications that appear when the associated mod has met a specific conditions. These flags are designed to notify you if mods are interacting with one another or meeting a criteria that should be addressed. 
+Flags are notifications that appear when the associated mod has met a specific conditions. The flags are intended to notify you if mods are interacting with one another or meeting a criteria that should be addressed. 
 
 The flags that are displayed include:
 
