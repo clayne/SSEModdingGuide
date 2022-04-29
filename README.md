@@ -447,7 +447,7 @@ To assign a category to a mod:
 
 If the mod has multiple categories, you can choose the displayed category by clicking **Primary Category** (located beneath **Change Categories**) and selecting a category in the list. 
 
-If any of the available categories does not fit a mod, you can create a custom category by doing the following:
+If none of the categories feel fitting for a mod, you can create a custom category by doing the following:
 
 1. Open the **Configuration Settings**.
 2. In the **General** tab, click **Configure Mod Categories**.
@@ -456,8 +456,14 @@ If any of the available categories does not fit a mod, you can create a custom c
 5. Click **OK**.
 
 
+### Modlist Color Highlights
 
-### ModList Color Highlights
+When selecting a mod in the list, mods that are interacting with the selected mod will be highlighted in a specific color. The highlights are for notifying the user of potential conflicts, overwrites, or redundancy in your modlist.
+
+The image below is an example of multiple mods interacting with **TK Dodge SE**, the selected mod.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/color%20plugin%202.png)
+
 ### Mod Priority/Load Order
 ### Overwrite Folder
 
