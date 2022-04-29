@@ -464,6 +464,16 @@ The image below is an example of multiple mods interacting with **TK Dodge SE**,
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/color%20plugin%202.png)
 
+The colors in the image above represents the following interactions:
+
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20blue.png) The mod is selected.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20purple.png) The plugin is associated with the selected mod.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20green.png) The mod is being overwritten by the selected mod.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20red.png) The mod is overwriting the selected mod.
+
+
+
+
 ### Mod Priority/Load Order
 ### Overwrite Folder
 
