@@ -401,7 +401,7 @@ The table below represents the available columns to sort by.
 |---|---|
 |**Mod Name**   | Modlist is organized alphabetically. |   
 |**Conflict**   | Modlist is organized based on which mods are conflicting with one another. This usually occurs when mods have files of the same name. |   
-| **Flags**  | Modlist is organized based on the icons assigned to them. Notification icons will only display when specific conditions are met. For more information, see Flags LINK THIS LATER |   
+| **Flags**  | Modlist is organized based on the notificaions icons assigned to them. The icons will only display when specific conditions are met. For more information, see the Flags section below LINK THIS LATER |   
 | **Content**  | Modlist is organized based on the category assigned by their author. If the mod has not been assigned a category, it will be set towards the bottom of the list. See Custom Categories to learn about assigning categories to mods. |  
 | **Version Number**  | Modlist is organized based on their version number and if they are up to date.| 
 | **Priority**  | Modlist is organized based on their assigned priority number. This number determines the order in which mods will load when opening the managed game. For more details on Priority, see Mod Priority/Load Order. | 
@@ -413,9 +413,11 @@ NOTE: You cannot click and drag mods unless your modlist is sorted by Priority.
 ```
 #### Flags
 
-Flags are notifications that appear when the associated mod has met a specific conditions. The flags are intended to notify you if mods are interacting with one another or meeting a criteria that should be addressed. 
+Flags are notifications that appear when the associated mod has met a specific conditions. The flags are intended to notify you if mods are interacting with one another or meeting a criteria that should be addressed. The figure below is an example of mods being marked with flags. 
 
-The flags that are displayed include:
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Flags%20example.png)
+
+The flags that can be displayed include:
 
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win.png) _Conflict Win_ - Mod is overwriting at least 1 files from another mod.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20lose.png) _Conflict Lose_ - Mod has atleast 1 files being overwritten by another mod.
@@ -428,9 +430,31 @@ The flags that are displayed include:
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/flag%20wrong.png) _Wrong Game/Version_ - Mod is for a different game or game version (i.e. Legendary Edition Skyrim mod vs Special Edition Skyrim mod). 
 
 
-#### Assigning Custom Categories
+#### Assigning Custom Categories to Mods
 
-Mods can be assigned to any category (Mod categories such as gameplay, immersion, bugfix, etc.) available in MO2.
+Mods can be assigned to any category (i.e. gameplay, immersion, bugfix, etc.) available in MO2. 
+
+To assign a category to a mod:
+
+1. Right click a mod in the modlist.
+2. Click **Change Categories**. A list of categories will appear. 
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Change%20Category.png)
+
+3. Click the **Checkbox** of the category you wish to assign to the mod.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Change%20Category%202.png)
+
+If the mod has multiple categories, you can choose the displayed category by clicking **Primary Category** (located beneath **Change Categories**) and selecting a category in the list. 
+
+If any of the available categories does not fit a mod, you can create a custom category by doing the following:
+
+1. Open the **Configuration Settings**.
+2. In the **General** tab, click **Configure Mod Categories**.
+3. Right-click within the columns, then click **Add**. A category called **New** with be added.
+4. Double click **New** to rename the category.
+5. Click **OK**.
+
 
 
 ### ModList Color Highlights
