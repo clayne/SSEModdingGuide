@@ -458,7 +458,7 @@ If none of the categories feel fitting for a mod, you can create a custom catego
 
 ### Modlist Color Highlights
 
-When selecting a mod in the list, mods that are interacting with the selected mod will be highlighted in a specific color. The highlights are for notifying the user of potential conflicts, overwrites, or redundancy in your modlist.
+When selecting a mod in the list, mods that are interacting with the selected mod will be highlighted in a specific color. The highlights are for notifying the user of potential conflicts, overwrites, or redundancy in your modlist. 
 
 The image below is an example of multiple mods interacting with **TK Dodge SE**, the selected mod.
 
@@ -471,11 +471,46 @@ The colors in the image above represents the following interactions:
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20green.png) The mod is being overwritten by the selected mod.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20red.png) The mod is overwriting the selected mod.
 
+Pay close attention to which mods are overwriting one another as there may be unintended effects from the mods. These conflicts can generally be resolved by:
 
+* Rearranging the mod's order
+* Removing the affected mods
+* Downloading a patch to resolve the conflict.
 
+```
+NOTE: Overwritten mods are not always invalidated and is sometimes intended by the mod author to interact with certain mods.
+```
 
 ### Mod Priority/Load Order
+
+The load order determines which mods take precedent when loading the game. Mods that edit similar elements in the game will typically share the same files which will end up overwriting eachother depending on the load order. In other words, mods that are loaded later will overwrite mods that are loaded earlier. 
+
+The image below is an example of a load order consisting of three mods interacting with one another. 
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Load%20Order%20Image.png)
+
+The figure above represents the following information:
+
+* Skyrim will load mods based on their load order in MO2.
+* **Mod A**(Toothbrush Sword) and **Mod C**(Master Sword) are both editing the model of the Iron Sword, an in-game item from Skyrim.
+* **Mod B** (Flame effect) also edits the Iron Sword by adding a visual effect. The mod does not touch the model.
+
+Based on the image and the information above, the load order performs the following steps:
+
+1. **Mod A** loads first and the Iron Sword is now a Toothbrush Sword.
+2. **Mod B** loads second and adds the flame effect to the Iron Sword (which is now a Toothbrush Sword). It is now a Flaming Toothbrush Sword.
+3. **Mod C** loads and changes the Iron Sword into the Master Sword. The Flaming Toothbrush Sword is now a Flaming Master Sword. 
+4. The game loads with only the Flaming Master Sword (**Mod B** and **C**) active.
+
+The information and illustration above demonstrates how the interaction between multiple mods can create interesting effects, but it can also create redundancies in your modlist.
+
+When installing multiple mods that interact with similar in-game elements, be sure to always read the mod's description page on Nexus to reduce the amount of redundancies in your load order.
+
+
 ### Overwrite Folder
+
+The Overwrite folder stores all files that would have been placed into the game's directory. The folder is considered a mod and will always be considered as enabled. You can access this folder by clicking **Overwrite** at the bottom of the modlist. 
+
 
 
 # Introduction to Nexus Mods
