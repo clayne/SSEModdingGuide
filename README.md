@@ -521,7 +521,19 @@ Files that are dumped into Overwrite are typically from mods or tools that gener
 * Mod patches
 * Save data
 
-Keeping files in Overwrite will not harm to your game, but as stated earlier, they are considered active mods and should be organized like any other mod. 
+Keeping files in Overwrite will not harm to your game, but as stated earlier, they are considered active mods and should be organized like any other mod. To manage your Overwrite folder, you can choose to create a mod comprised of the contents of the folder. 
+
+To convert the contents of Overwrite into a mod:
+
+1. Right-click **Overwrite**.
+2. Click **Create Mod**.
+3. Enter the name of the mod (preferably based on the contents of the folder).
+4. Enable the mod. 
+
+Since creating a mod will use **all** files in Overwrite, it is recommended that you follow the procedures above everytime you have files dumped into Overwrite because you want to be able to keep track of all generate output files. While mixing outputs together is not harmful to your game, it will be inconvenience to keep track of. 
+
+## Executables Menu
+## Plugin Panel
 
 # Introduction to Nexus Mods
 # Downloading and Installing Mods
