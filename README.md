@@ -610,9 +610,21 @@ Consider the following information:
 
 When downloading mods from Nexus, all files will be directed to MO2's download folder and displayed in this tab. The figure below is an example of the tab with two mods downloaded.
 
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20tab.png)
 
+This tab will display the following information for the files:
+
+* The name of the files.
+* The status of the files (installed, uninstalled, or recently downloaded).
+* The size of the files.
+* The time and date of download.
+
+You can install mods from this tab by double-clicking a file.
 
 # Introduction to Nexus Mods
+
+
+
 # Downloading and Installing Mods
 # Essential Mods for Skyrim
 # Closing Thoughts 
