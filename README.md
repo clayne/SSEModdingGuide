@@ -584,13 +584,31 @@ In addtion to sorting your mods, the program also includes:
 
 Sorting your plugins into a proper order is one of the best ways to create a stable mod list that will prevent crashes and mod conflicts.
 
-To use LOOT, click the **Sort** button at the top of the window; the LOOT window will open and begin sorting your plugin list. Once it has finished sorting, the window will inform you of any potential conflicts.
+To use LOOT, click the **Sort** button at the top of the window; the LOOT window will open and begin sorting your plugin list. Once it has finished sorting, the window will inform you of any potential conflicts. The image below is an example of the LOOT window displaying a potential conflict.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Loot%20Window%20Sorted.png)
 
-#### Plugin Practices
+```
+NOTE: It is recommended that you ALWAYS use LOOT whenever you add a new plugin.
+```
+
+#### Good Plugin Practices
+
+Much like mods, plugins can also be enabled or disabled by clicking the associated checkboxes in the plugin tab. While plugins can introduce unique features to Skyrim, it can lead to numerous issues if mismanaged. 
+
+Consider the following information:
+
+* Plugins should **never** be removed from an active playthrough (existing save file). The game will attempt to call the removed plugin which will likely lead to your game crashing. The image below is the warning message that appears when you load a save file with a missing plugin.
+
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/missing%20plugin.png)
+  
+* It is generally okay to add plugins to an active playthrough unless stated otherwise by the mod author.
+* The game will not load plugins until you open a save file (in-game via past the title screen via New Game or Continue Game). This prevents all existing files from being affected by new plugins.
+* Always make a copy of your save file before adding plugins. This is so you can revert back to an old save file if you find issues with an added plugin.
 
 ### Downloads Tab
+
+When downloading mods from Nexus, all files will be directed to MO2's download folder and displayed in this tab. The figure below is an example of the tab with two mods downloaded.
 
 
 
