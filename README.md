@@ -504,7 +504,7 @@ Based on the image and the information above, the load order performs the follow
 
 The information and illustration above demonstrate how the interaction between multiple mods can create interesting effects, but it can also create redundancies in your modlist.
 
-When installing multiple mods that interact with similar in-game elements, be sure to always read the mod's description page on Nexus to reduce the number of redundancies in your load order.
+When installing multiple mods that interact with similar in-game elements, be sure to always read the mod's description page on Nexus to reduce the number of redundancies in your load order. This is especially important when ordering plugins (LINK) that are installed with the mods. 
 
 
 ### Overwrite Folder
@@ -569,9 +569,26 @@ The Plugins Tab will list all installed plugins (ESP, ESL, or ESM files). Not ev
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Plugin%20Panel.png)
 
+At first glance, the image above shares similar features to the Installation Panel such as the checkboxes, active plugin count, and ability to drag plugins through the list. Due to the nature of plugins, the load order in this tab will be independent from the Installation Panel.
 
 
+#### Using the Load Order Optimization Tool (LOOT)
 
+The Plugins tab uses an addon known as Loot Order Optimization Tool (LOOT) which automatically sorts your plugin list. LOOT uses a master list developed by numerous mod authors to determine the best way to order mods based on their category, scope, and implementation. 
+
+In addtion to sorting your mods, the program also includes:
+
+* Checking for errors such as mod incompatability or missing requirements.
+* Providing plugin specific notifications for potential issues.
+* Organizing the list in a way to have as few conflicts as possible.
+
+Sorting your plugins into a proper order is one of the best ways to create a stable mod list that will prevent crashes and mod conflicts.
+
+To use LOOT, click the **Sort** button at the top of the window; the LOOT window will open and begin sorting your plugin list. Once it has finished sorting, the window will inform you of any potential conflicts.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Loot%20Window%20Sorted.png)
+
+#### Plugin Practices
 
 ### Downloads Tab
 
