@@ -532,8 +532,50 @@ To convert the contents of Overwrite into a mod:
 
 Since creating a mod will use **all** files in Overwrite, it is recommended that you follow the procedures above everytime you have files dumped into Overwrite because you want to be able to keep track of all generated files. While mixing files from multiple mods is not harmful to your game, keeping track of the files may be very inconvenient. 
 
-## Executables Menu
+## Executable Menu
+
+The Executable Menu is for launching programs that were connected to MO2 through the Executable Settings(LINK THIS). The figure below highlights the components of the menu. 
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Executable%20panel%20highlight.png)
+
+The components in the image above are for the following functions:
+
+* _Executable List_: A drop-down menu that lists all programs that have been added to MO2.
+* _Run Program_: Execute the selected program. MO2's window will be locked whenever a program is ran this way. You will not be able to interact with the UI in any capacity.
+* _Add Shortcuts_: Create a shortcut for the selected program. The shortcuts can be added to MO2's toolbar, the desktop, and the Windows Start Menu.  
+
+
 ## Plugin Panel
+
+Plugins are scripts that are used to add features into Skyrim's game engine. This is how mod authors inject brand new features into the game. Plugins are typically included with mods that are installed; however, not every mod will use a plugin. The Plugin Panel is where you will manage all plugins that are added to your game. Alongside Plugins, you can also manage other information here such as save data or downloads. The image below is an example of viewing the _Data_ tab, which displays all the files used in the Instance.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Data.png)
+
+The panel consists of five tabs which are for the following:
+
+| Tab |Description|   
+|---|---|
+|**Plugins**   | Lists all plugins that were added from installed mods. Not every mod will contain a plugin.  |   
+| **Archives**  | Lists all active BSA files from the Instance. |   
+| **Data**  | Lists all files provided by installed mods. |  
+| **Saves**  | Lists all save files for the Instance's game. Provides details such as game time, statistics, and mods. | 
+| **Downloads**  | Lists all valid ZIP files in MO2's Download folder. | 
+
+Given the scope of this document, the sections below will only focus on the _Plugins_ and _Downloads_ tab since the other three will not be necessary for modding. 
+
+### Plugins Tab
+
+The Plugins Tab will list all installed plugins (ESP, ESL, or ESM files). Not every mod will require a plugin to function, so do not worry if the number of active plugins does not match the number of active mods. The image below is an example of the tab with over 200 plugins.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Plugin%20Panel.png)
+
+
+
+
+
+### Downloads Tab
+
+
 
 # Introduction to Nexus Mods
 # Downloading and Installing Mods
