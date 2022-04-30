@@ -458,7 +458,7 @@ If none of the categories feel fitting for a mod, you can create a custom catego
 
 ### Modlist Color Highlights
 
-When selecting a mod in the list, mods that are interacting with the selected mod will be highlighted in a specific color. The highlights are for notifying the user of potential conflicts, overwrites, or redundancy in your modlist. 
+When selecting a mod in the list, mods that are interacting with the selected mod will be highlighted in a specific color. The highlights are for notifying the user of potential conflicts, overwrites, or redundancies in your modlist. 
 
 The image below is an example of multiple mods interacting with **TK Dodge SE**, the selected mod.
 
@@ -483,7 +483,7 @@ NOTE: Overwritten mods are not always invalidated and is sometimes intended by t
 
 ### Mod Priority/Load Order
 
-The load order determines which mods take precedent when loading the game. Mods that edit similar elements in the game will typically share the same files which will end up overwriting eachother depending on the load order. In other words, mods that are loaded later will overwrite mods that are loaded earlier. 
+The load order determines which mods will take precedent when loading the game. Mods that edit similar elements in the game will typically share the same files which will end up overwriting each other depending on the load order. In other words, mods that are loaded later will overwrite mods that are loaded earlier. 
 
 The image below is an example of a load order consisting of three mods interacting with one another. 
 
@@ -502,9 +502,9 @@ Based on the image and the information above, the load order performs the follow
 3. **Mod C** loads and changes the Iron Sword into the Master Sword. The Flaming Toothbrush Sword is now a Flaming Master Sword. 
 4. The game loads with only the Flaming Master Sword (**Mod B** and **C**) active.
 
-The information and illustration above demonstrates how the interaction between multiple mods can create interesting effects, but it can also create redundancies in your modlist.
+The information and illustration above demonstrate how the interaction between multiple mods can create interesting effects, but it can also create redundancies in your modlist.
 
-When installing multiple mods that interact with similar in-game elements, be sure to always read the mod's description page on Nexus to reduce the amount of redundancies in your load order.
+When installing multiple mods that interact with similar in-game elements, be sure to always read the mod's description page on Nexus to reduce the number of redundancies in your load order.
 
 
 ### Overwrite Folder
@@ -530,7 +530,7 @@ To convert the contents of Overwrite into a mod:
 3. Enter the name of the mod (preferably based on the contents of the folder).
 4. Enable the mod. 
 
-Since creating a mod will use **all** files in Overwrite, it is recommended that you follow the procedures above everytime you have files dumped into Overwrite because you want to be able to keep track of all generate output files. While mixing outputs together is not harmful to your game, it will be inconvenience to keep track of. 
+Since creating a mod will use **all** files in Overwrite, it is recommended that you follow the procedures above everytime you have files dumped into Overwrite because you want to be able to keep track of all generated files. While mixing files from multiple mods is not harmful to your game, keeping track of the files may be very inconvenient. 
 
 ## Executables Menu
 ## Plugin Panel
