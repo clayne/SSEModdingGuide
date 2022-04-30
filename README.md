@@ -511,7 +511,17 @@ When installing multiple mods that interact with similar in-game elements, be su
 
 The Overwrite folder stores all files that would have been placed into the game's directory. The folder is considered a mod and will always be considered as enabled. You can access this folder by clicking **Overwrite** at the bottom of the modlist. 
 
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/overwrite%20and%20folder.png)
 
+Files that are dumped into Overwrite are typically from mods or tools that generate an output file. Some examples include:
+
+* Crash Logs
+* Information Dumps
+* Engine modification
+* Mod patches
+* Save data
+
+Keeping files in Overwrite will not harm to your game, but as stated earlier, they are considered active mods and should be organized like any other mod. 
 
 # Introduction to Nexus Mods
 # Downloading and Installing Mods
