@@ -681,8 +681,12 @@ Given wide possibilities of content that can be included in a mod, some users ma
 
 To block content on the website:
 
-1. In the top right of Nexus, click **your Profile Icon** > **Site Preferences**
+1. In the top right of Nexus, click **your Profile Icon** > **Site Preferences**.
 
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Block%20Content%201.png)
+
+2. Click **Content Blocking**
+3. In the **Search for tags to block** section, click the tags of any categories you wish to block.
 
 ## Understanding the Mod Page
 
