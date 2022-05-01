@@ -110,7 +110,7 @@ This section will explain the virtual directory, and how to set up your game for
 
 ### Instances, a Virtual Game Directory
 
-A **Instance** will need to be created everytime you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read its own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for the Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. 
+A **Instance** will need to be created every time you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read its own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for the Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Virtual.png)
 
@@ -207,7 +207,7 @@ TIP: Alternatively, you can click and drag ZIP files into the MO2 window to inst
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20Nexus%20Mod%20Link%20ICON.png)
 
-The Browse Mod Page button will direct your web browser to the managed game's section on Nexus Mods (i.e. managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
+The Browse Mod Page button will direct your web browser to the managed game's section on Nexus Mods (i.e., managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
 
 ### Refresh
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20refresh%20ICON.png)
@@ -260,7 +260,7 @@ The options to manage your profile include:
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20ICOn.png)
 
-The Configuration settings has 8 tabs that controls the functionality of MO2 (i.e. languages, mod color coordinations, folder directory, etc.). Use this window to tailor MO2 to your liking. 
+The Configuration settings has 8 tabs that controls the functionality of MO2 (i.e., languages, mod color coordination, folder directory, etc.). Use this window to tailor MO2 to your liking. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20window.png)
 
@@ -281,7 +281,7 @@ The table below represents what each tab controls.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Execute%20ICON.png)
 
-The Executables is for managing programs added to MO2. When adding a program to MO2, the added program will automatically associated itself with the managed game (i.e. modding tools that edit files will automatically direct iself to the game's directory). The addition of executables is meant to make MO2 a central hub for modding your games. These additional programs can include:
+The Executables is for managing programs added to MO2. When adding a program to MO2, the added program will automatically associat itself with the managed game (i.e. modding tools that edit files will automatically direct itself to the game's directory). The addition of executables is meant to make MO2 a central hub for modding your games. These additional programs can include:
 
 * Games 
 * Tools (Editing programs such as Skyrim Special Edition Edit (SSEEdit)
@@ -297,7 +297,7 @@ The options to manage your programs is located above the list. These functions a
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20Add.png) _Add_ - Opens the file explorer to add a supported executable to MO2.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20Remove.png) _Remove_ - Remove the selected executable from MO2.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20move%20ex.png) _Rearrange List_ - Move the selected executable up or down the list.
-* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/execute%20add%20default%20plugin.png) _Add Default Plugins_ - Adds executables based on the Instance's game (i.e. adds the Skyrim executable file if the Instance is based on Skyrim). By default the Instance will have the managed game's executables setup.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/execute%20add%20default%20plugin.png) _Add Default Plugins_ - Adds executables based on the Instance's game (i.e. adds the Skyrim executable file if the Instance is based on Skyrim). By default, the Instance will have the managed game's executables setup.
 
 To access your executables, see Executable Menu LINK THIS LATER
 
@@ -348,7 +348,7 @@ The Help button is a menu that will provide additional resources to teach you ab
 | **Chat on Discord**  | Provides a link to the MO2 official Discord server. Here you can communicate with developers and other users for help. |  
 | **Report Issue**  | Directs the web browser to MO2's bug report forum. | 
 | **Tutorial**  | Starts the built-in tutorial that will explain MO2 to you. You cannot stop the tutorial once it starts.  | 
-| **About**  | Displays copyright information, list of contributers, and software used in MO2.  | 
+| **About**  | Displays copyright information, contributors, and software used in MO2.  | 
 | **About Qt**  | Copyright and general information for Qt, a C++ toolkit used to develop MO2.  | 
 
 ## Installation Panel
@@ -401,7 +401,7 @@ The table below represents the available columns to sort by.
 |---|---|
 |**Mod Name**   | Modlist is organized alphabetically. |   
 |**Conflict**   | Modlist is organized based on which mods are conflicting with one another. This usually occurs when mods have files of the same name. |   
-| **Flags**  | Modlist is organized based on the notificaions icons assigned to them. The icons will only display when specific conditions are met. For more information, see the Flags section below LINK THIS LATER |   
+| **Flags**  | Modlist is organized based on the notification icons assigned to them. The icons will only display when specific conditions are met. For more information, see the Flags section below LINK THIS LATER |   
 | **Content**  | Modlist is organized based on the category assigned by their author. If the mod has not been assigned a category, it will be set towards the bottom of the list. See Custom Categories to learn about assigning categories to mods. |  
 | **Version Number**  | Modlist is organized based on their version number and if they are up to date.| 
 | **Priority**  | Modlist is organized based on their assigned priority number. This number determines the order in which mods will load when opening the managed game. For more details on Priority, see Mod Priority/Load Order. | 
@@ -413,7 +413,7 @@ NOTE: You cannot click and drag mods unless your modlist is sorted by Priority.
 ```
 #### Flags
 
-Flags are notifications that appear when the associated mod has met a specific conditions. The flags are intended to notify you if mods are interacting with one another or meeting a criteria that should be addressed. The figure below is an example of mods being marked with flags. 
+Flags are notifications that appear when the associated mod has met a specific condition. The flags are intended to notify you if mods are interacting with one another or meets a criterion that should be addressed. The figure below is an example of mods being marked with flags. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Flags%20example.png)
 
@@ -421,7 +421,7 @@ The flags that can be displayed include:
 
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win.png) _Conflict Win_ - Mod is overwriting at least 1 files from another mod.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20lose.png) _Conflict Lose_ - Mod has atleast 1 files being overwritten by another mod.
-* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win%20and%20lose.png) _Conflict Win Lose_ - Mod is overwriting atleast 1 file from another mod while also having 1 of its own files being overwritten
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win%20and%20lose.png) _Conflict Win Lose_ - Mod is overwriting at least 1 file from another mod while also having 1 of its own files being overwritten
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20Redundant%202.png) _Redundant_: Mod has all of its files being overwritten by another mod.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20invalid%20file%20mod.png) _Invalid_ - Mod contains invalid files that cannot be read by MO2. Mods associated with this flag cannot be enabled.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20unendorsed.png) _Unendorsed_ - Mod has not been endorsed by the user. After you install a mod, this icon will appear after an undetermined amount of time.
@@ -432,7 +432,7 @@ The flags that can be displayed include:
 
 #### Assigning Custom Categories to Mods
 
-Mods can be assigned to any category (i.e. gameplay, immersion, bugfix, etc.) available in MO2. 
+Mods can be assigned to any category (i.e., gameplay, immersion, bugfix, etc.) available in MO2. 
 
 To assign a category to a mod:
 
@@ -530,7 +530,7 @@ To convert the contents of Overwrite into a mod:
 3. Enter the name of the mod (preferably based on the contents of the folder).
 4. Enable the mod. 
 
-Since creating a mod will use **all** files in Overwrite, it is recommended that you follow the procedures above everytime you have files dumped into Overwrite because you want to be able to keep track of all generated files. While mixing files from multiple mods is not harmful to your game, keeping track of the files may be very inconvenient. 
+Since creating a mod will use **all** files in Overwrite, it is recommended that you follow the procedures above every time you have files dumped into Overwrite because you want to be able to keep track of all generated files. While mixing files from multiple mods is not harmful to your game, keeping track of the files may be very inconvenient. 
 
 ## Executable Menu
 
@@ -541,7 +541,7 @@ The Executable Menu is for launching programs that were connected to MO2 through
 The components in the image above are for the following functions:
 
 * _Executable List_ - A drop-down menu that lists all programs that have been added to MO2.
-* _Run Program_ - Execute the selected program. MO2's window will be locked whenever a program is ran this way. You will not be able to interact with the UI in any capacity.
+* _Run Program_ - Execute the selected program. MO2's window will be locked whenever a program is executed this way. You will not be able to interact with the UI in any capacity.
 * _Add Shortcuts_ - Create a shortcut for the selected program. The shortcuts can be added to MO2's toolbar, the desktop, and the Windows Start Menu.  
 
 
@@ -576,9 +576,9 @@ At first glance, the image above shares similar features to the Installation Pan
 
 The Plugins tab uses an addon known as Loot Order Optimization Tool (LOOT) which automatically sorts your plugin list. LOOT uses a master list developed by numerous mod authors to determine the best way to order mods based on their category, scope, and implementation. 
 
-In addtion to sorting your mods, the program also includes:
+In addition to sorting your mods, the program also includes:
 
-* Checking for errors such as mod incompatability or missing requirements.
+* Checking for errors such as mod incompatibility or missing requirements.
 * Providing plugin specific notifications for potential issues.
 * Organizing the list in a way to have as few conflicts as possible.
 
@@ -627,7 +627,7 @@ Nexus Mods (Nexus) is a website where users can upload and download mods. The we
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Homepage.png)
 
-This section will focus on teaching you how to use the website. By the end of this section you will know:
+This section will focus on teaching you how to use the website. By the end of this section, you will know:
 
 * How to navigate the website.
 * How to filter content to your liking.
@@ -714,11 +714,27 @@ The tabs on the mod page will provide information on the mod. Clicking a tab wil
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Mod%20page%20tabs.png)
 
-
-
 The blue boxes next to the names of the tabs represents how many items are uploaded to the tab.
 
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Mod%20Tab%20Box%20File.png) - There is **1 file** that can be downloaded.
 
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Mod%20Tab%20Box%20Image.png) - There are **15 images** uploaded to this page.
+
+The tabs available on the page will vary from mod to mod. The mod author can choose to hide specific tabs if they deem it unnecessary to the mod's presentation. 
+
+The table below represents the 9 tabs available for a mod page.
+
+| Page Tab  | Description |
+| ------------- | ------------- |
+| **Description**  | Describes the mod. Will generally present information such as features, requirements, procedures for installation, conflicts with other mods, and questions commonly asked.   |
+| **Images** | Screenshots to show the mod will look in-game. Users can upload their own images here, but the author can choose to delete your images if they conclude that it has no relevance to the mod.  |
+| **Files**  | Files that can be downloaded through MO2 or manually through your PC. For more information, refer to Downloading and Installing Mods (LINK)  |
+| **Videos**  | Videos that demonstrate the mod in-game. Users may also upload their own videos here. |
+| **Articles**  | Additional documentation related to the mod. Documents here will vary but typically include compatibility with other mods, extra features, and guides.  |
+| **Posts**  | A discussion board where the author and users can have a discussion related to the mod.   |
+| **Logs**  | Tracks all changes that were made to the mod page. |
+| **Stats**  | A graph that tracks the dates for downloads, endorsements, and views. |
+| **Bugs**  | A discussion board where users can report any bugs they encounter with the mod.  |
 
 
 # Downloading and Installing Mods
