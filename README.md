@@ -540,9 +540,9 @@ The Executable Menu is for launching programs that were connected to MO2 through
 
 The components in the image above are for the following functions:
 
-* _Executable List_: A drop-down menu that lists all programs that have been added to MO2.
-* _Run Program_: Execute the selected program. MO2's window will be locked whenever a program is ran this way. You will not be able to interact with the UI in any capacity.
-* _Add Shortcuts_: Create a shortcut for the selected program. The shortcuts can be added to MO2's toolbar, the desktop, and the Windows Start Menu.  
+* _Executable List_ - A drop-down menu that lists all programs that have been added to MO2.
+* _Run Program_ - Execute the selected program. MO2's window will be locked whenever a program is ran this way. You will not be able to interact with the UI in any capacity.
+* _Add Shortcuts_ - Create a shortcut for the selected program. The shortcuts can be added to MO2's toolbar, the desktop, and the Windows Start Menu.  
 
 
 ## Plugin Panel
@@ -686,9 +686,25 @@ To block content on the website:
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Block%20Content%201.png)
 
 2. Click **Content Blocking**
-3. In the **Search for tags to block** section, click the tags of any categories you wish to block.
+3. In the **Search for tags to block** section, click the tags of any categories you wish to block. Blocked content will be highlighted in red
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Block%202.png)
 
 ## Understanding the Mod Page
+
+The mod page of any mods that interest you will provide information such as features, bugs, and community feedback. The image below is the mod page for the _Unofficial Skyrim Special Edition Patch_, one of the most popular mods on the website.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mod%20Page%201.png)
+
+The image above highlights the following information:
+
+* _Statistics_ - Number of unique downloads, endorsements, views, and dates for upload and last update.
+* _Images and Videos_ - Media content to demonstrate the mod.
+* _Tags_ - Tags to categorize the mod when browsing the website.
+* _Information Tabs_ - Information for the mod based on the associated tab.
+* _Media Buttons_ -
+
+
 
 # Downloading and Installing Mods
 # Essential Mods for Skyrim
