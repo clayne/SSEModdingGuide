@@ -696,13 +696,28 @@ The mod page of any mods that interest you will provide information such as feat
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mod%20Page%201.png)
 
-The image above highlights the following information:
+The image above highlights general information that can serve as a preview. The information provides the following:
 
 * _Statistics_ - Number of unique downloads, endorsements, views, and dates for upload and last update.
 * _Images and Videos_ - Media content to demonstrate the mod.
 * _Tags_ - Tags to categorize the mod when browsing the website.
 * _Information Tabs_ - Information for the mod based on the associated tab.
-* _Media Buttons_ -
+* _Media Buttons_ - Buttons for:
+   *  _Add Media_ - Upload your own images or videos to demonstrate the mod.
+   *  _Track_ - Gives you a notification whenever the author makes any changes to the mod page.
+   *  _Endorse_ - Give your approval to the mod. Endorsements will increase the promotion the mod gets on the website.
+   *  _Vote_ - Gives the mod a vote for the Mod of the Month event. This option will be unavailable if the mod has won before.
+
+### Mod Page Tabs
+
+The tabs on the mod page will provide information on the mod. Clicking a tab will display it in the bottom half of the page. 
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Mod%20page%20tabs.png)
+
+
+
+The blue boxes next to the names of the tabs represents how many items are uploaded to the tab.
+
 
 
 
