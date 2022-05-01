@@ -738,5 +738,36 @@ The table below represents the 9 tabs available for a mod page.
 
 
 # Downloading and Installing Mods
+
+A majority of your mods will come from Nexus. Most mods will typically follow the same installation procedures but there are a few exceptions that require additional setup. Be sure to **always read the mod's description page** before installing any mods; the mod page may include information such as instructions, documentations for compatability with other mods, or frequently asked questions (FAQs). 
+
+This section will demonstrate how to use MO2 and Nexus to download and install mods. The information below will explain the general procedures for installing a mod. Given the nature of some mods, the procedures below may very.
+
+1. On the mod page, click the **Files** tab.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%201.png)
+
+2. In the **Main Files** section, click **Mod Manager Download**.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%202.png)
+
+3. Click **Slow Download**. The website will ask for permission to access MO2.
+4. Click **Open NXM Link Proxy**. MO2 will open and download the mod.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%2023.png)
+
+5. In the **Plugin Panel**, click the **Downloads** tab.
+6. Double-click the mod to install it. Click **OK** when prompted.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%203.png)
+
+7. In the **Installation Panel**, click the mod's **checkbox** to enable it.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%204.png)
+
+8. If the mod contains a plugin, click **Sort** in the **Plugin Panel** to sort it with your other plugins.
+
+
+
 # Essential Mods for Skyrim
 # Closing Thoughts 
