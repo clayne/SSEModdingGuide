@@ -643,10 +643,47 @@ Each game has their own section which helps keep the website organized. From the
 
 While you are in the game's section of the website, links and searches done will only display content related to the section (if you are in the Skyrim section, only Skyrim content will appear if you use the search bar).
 
+### Searching for Mods
+
+#### Find a Specific Mod 
+
+Enter the name of the mod into the search bar at the top of the screen. Mod suggestions will appear on the screen as you enter text.
+
+#### Find Mods Based on Category: 
+
+If you are searching for a specific mod category:
+
+1. At the top of the screen, click **Mods** > **Mod Categories**
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mods%20to%20Mod%20Category.png)
+
+2. Click a category of your choosing.
 
 
 
-## Filter Content
+If you want to search for multiple mod categories:
+
+1. At the top of the screen, click **Mods** > **Browse All** (any option in **Mods** would suffice here)
+2. In the **Refine Results** box, click the **Blue Box** on the right.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Specific%20Category%201.png)
+
+3. Inside the **Refine By Category** section, click the checkboxes of your desired categories.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mods%20to%20Mod%20Category%202.png)
+
+4. Click **Apply Filter**
+
+
+## Block Content
+
+Given wide possibilities of content that can be included in a mod, some users may be uncomfortable with certain content (violence, sexual content, etc.) or they may dislike a certain category of mods (gameplay, immersion, etc.). You may choose to block certain categories from appearing when you browse the website.
+
+To block content on the website:
+
+1. In the top right of Nexus, click **your Profile Icon** > **Site Preferences**
+
+
 ## Understanding the Mod Page
 
 # Downloading and Installing Mods
