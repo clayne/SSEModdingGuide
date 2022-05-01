@@ -623,7 +623,31 @@ You can install mods from this tab by double-clicking a file.
 
 # Introduction to Nexus Mods
 
+Nexus Mods (Nexus) is a website where users can upload and download mods. The website is free to use and is easily accessible for anyone that wants to mod their games. The image below is homepage which displays the most popular games on the website.
 
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Homepage.png)
+
+This section will focus on teaching you how to use the website. By the end of this section you will know:
+
+* How to navigate the website.
+* How to filter content to your liking.
+* How to read information on a mod page.
+
+## Navigating Nexus Mods
+
+Starting out, the website can feel confusing to navigate at times, so this section will help you get a general understanding of what to look for on the website. 
+
+Each game has their own section which helps keep the website organized. From the homepage you can select your favorite games to begin looking for mods. In the image below, the browser was directed to the Skyrim Special Edition section of the website.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Skyrim%20Section.png)
+
+While you are in the game's section of the website, links and searches done will only display content related to the section (if you are in the Skyrim section, only Skyrim content will appear if you use the search bar).
+
+
+
+
+## Filter Content
+## Understanding the Mod Page
 
 # Downloading and Installing Mods
 # Essential Mods for Skyrim
