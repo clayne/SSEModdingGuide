@@ -767,7 +767,9 @@ This section will demonstrate how to use MO2 and Nexus to download and install m
 
 8. If the mod contains a plugin, click **Sort** in the **Plugin Panel** to sort it with your other plugins.
 
-
-
 # Essential Mods for Skyrim
+
+
+
+
 # Closing Thoughts 
