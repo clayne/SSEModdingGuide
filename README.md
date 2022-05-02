@@ -205,24 +205,24 @@ TIP: Alternatively, you can click and drag ZIP files into the MO2 window to inst
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20Nexus%20Mod%20Link%20ICON.png)
 
-The Browse Mod Page button will direct your web browser to the managed game's section on Nexus Mods (e.g., managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
+The _Browse Mod Page_ button will direct your web browser to the managed game's section on Nexus Mods (e.g., managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
 
 ### Refresh
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20refresh%20ICON.png)
 
-The Refresh button will reload MO2. Use this if any changes made to MO2 (Load order change, installed or removed mods, etc.) are not immediately reflected.
+The _Refresh_ button will reload MO2. Use this if any changes made to MO2 (Load order change, installed or removed mods, etc.) are not immediately reflected.
 
 ### Tools
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Tools%20ICON.png)
 
-The Tools button is for executing additional MO2 plugins and addons. These features expand the functionality of MO2 by providing extra options to modify your games.
+The _Tools_ button is for executing additional MO2 plugins and addons. These features expand the functionality of MO2 by providing extra options to modify your games.
 
 The tools available by default are:
 
 * _Bethesda Software Archive (BSA) Packer_: Creates BSA files using resources from the managed game or mods. For general modding, this plugin is not needed. 
 * _Fores New Idles in Skyrim_ (FNIS): A tool that allows Skyrim to have more animations. As of 2020, this plugin has been made obsolete by [Nemesis](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases), a more up to date animation tool.
-* _INI Editor_: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. The image below is an example of viewing Skyrim's ini files.
+* _INI Editor_: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. The image below is an example of the editor viewing the Skyrim ini files.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20ini%20window.png)
    
@@ -232,7 +232,7 @@ As of the making of this document, most tools are now managed by the [Executable
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Profile%20ICON.png)
 
-Multiple mod/game configurations are managed by profiles. Much like how Instances manage multiple games, profiles will manage multiple configurations of a single game. The purpose of this feature is to allow users to playtest and experiment with numerous mod configurations. 
+Multiple mod and game configurations are managed by profiles. Much like how Instances manage multiple games, profiles will manage multiple configurations for a single game. The purpose of this feature is to allow users to playtest and experiment with numerous mod configurations. 
 
 The following information will be unique to each profile:
 * Installed mods and their status (Installed/Disabled).
@@ -242,7 +242,7 @@ The following information will be unique to each profile:
 * Configuration files (If checked in profile settings).
 * Save files for managed game (If checked in profile settings).
 
-The image below is the profile manager which allows you to create, delete, and edit your profiles. Selecting any of the profiles in the list, then clicking **Select** will swap MO2 to the selected profile, mirroring any configurations set in the selected profile. 
+The image below is the _Profile Manager_ which allows you to create, delete, and edit your profiles. Select any of the profiles in the list, then clicking **Select** will swap MO2 to the selected profile, mirroring any configurations set in the selected profile. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Profile%20Window.png)
 
