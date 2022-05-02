@@ -267,7 +267,7 @@ The table below represents what each tab controls.
 | Tab |Description|   
 |---|---|
 |**General**   | Options for changing the displayed language, updating MO2, and setting miscellaneous options such as centering text. |   
-| **Theme**  | Color settings that highlight enabled mods based on specific conditions. For more information, see FILL |   
+| **Theme**  | Color settings that highlight enabled mods based on specific conditions. For more information, see [Modlist Color Highlights](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#modlist-color-highlights) |   
 | **ModList**  | Additional settings for the Installation Panel such as checking for mod updates, sorting the modlist, and displaying icons based on specific conditions. |  
 | **Paths**  | View and change the directories setup for MO2 | 
 | **Nexus**  | Displays information for the linked Nexus Mod's account. You may also link and unlink your Nexus account from here.  | 
