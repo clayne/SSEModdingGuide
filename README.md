@@ -40,7 +40,7 @@ To move your Steam directory:
 
 1. In your Steam client, click **Steam** > **Settings**.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Steam%20home%20Setting%20Highlight.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Steam%20home%20Setting%20Highlight.png)
 
 2. Click **Downloads** > **Steam Library Folder**.
 3. Click **Add Library Folder**. You will open a Steam file explorer. 
