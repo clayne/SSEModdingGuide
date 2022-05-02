@@ -728,7 +728,7 @@ The table below represents the 9 tabs available for a mod page.
 | ------------- | ------------- |
 | **Description**  | Describes the mod. Will generally present information such as features, requirements, procedures for installation, conflicts with other mods, and questions commonly asked.   |
 | **Images** | Screenshots to show the mod will look in-game. Users can upload their own images here, but the author can choose to delete your images if they conclude that it has no relevance to the mod.  |
-| **Files**  | Files that can be downloaded through MO2 or manually through your PC. For more information, refer to Downloading and Installing Mods (LINK)  |
+| **Files**  | Files that can be downloaded through MO2 or manually through your PC. For more information, refer to [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#downloading-and-installing-mods).  |
 | **Videos**  | Videos that demonstrate the mod in-game. Users may also upload their own videos here. |
 | **Articles**  | Additional documentation related to the mod. Documents here will vary but typically include compatibility with other mods, extra features, and guides.  |
 | **Posts**  | A discussion board where the author and users can have a discussion related to the mod.   |
@@ -835,7 +835,7 @@ The patch is designed to work with every mod. Given the popularity of this patch
 
 ### Installing USSEP
 
-USSEP can be installed like any other mod from their [Nexus page](https://www.nexusmods.com/skyrimspecialedition/mods/266). Refer to Downloading and Installing Mods (LINK) for the procedures.
+USSEP can be installed like any other mod from their [Nexus page](https://www.nexusmods.com/skyrimspecialedition/mods/266). Refer to [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#downloading-and-installing-mods) for the procedures.
 
 ## Skyrim Special Edition Engine Fixes (SSE Engine Fixes)
 
@@ -845,14 +845,14 @@ _SSE Engine Fixes_ is an _SKSE_ addon that focuses on resolving the many issues 
 
 _SSE Engine Fixes_ requires _SKSE_ and _Address Library for SKSE Plugins_. SKSE should already be installed by this point. _Address Library for SKSE Plugins_ is an addon that prevents mods from breaking when they don't match the current version of SSE. This means that whenever SSE recieves an update, mods will still function regardless if they are outdated.
 
-[_Address Library for SKSE Plugins_](https://www.nexusmods.com/skyrimspecialedition/mods/32444) can be installed like any other mod, refer to Download and Installing Mods (LINK) for the procedures.
+[_Address Library for SKSE Plugins_](https://www.nexusmods.com/skyrimspecialedition/mods/32444) can be installed like any other mod, refer to [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#downloading-and-installing-mods) for the procedures.
 
 To install _SSE Engine Fixes_:
 
 1. Navigate to the [SSE Engine Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=description) page on Nexus
 2. Click on the **Files** tab.
 3. Look for **(Part 1) SSE Engine Fixes for 1.5.39 - 1.5.97**. Click **Mod Manager Download**
-   * Follow the standard installation procedures (LINK) to install **Part 1**.
+   * Follow the usual [installation procedures](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#downloading-and-installing-mods) to install **Part 1**.
 4. Once you've installed **Part 1**, go back to the **Files** on Nexus and look for **(Part 2) Engine Fixes - skse64 Preloader and TBB Lib**. Click **Manual Download**.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Engine%20Part%201.png)
@@ -877,6 +877,6 @@ _SkyUI_ also allows the user to access the **Mod Configuration Menu** in-game wh
 
 ### Installing SkyUI
 
-_SkyUI_ can be installed like any other mod from their [Nexus page](https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=description). Refer to Download and Installing Mods (LINK) for the procedures.
+_SkyUI_ can be installed like any other mod from their [Nexus page](https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=description). Refer to [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#downloading-and-installing-mods) for the procedures.
 
 # Closing Thoughts 
