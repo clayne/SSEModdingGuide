@@ -944,4 +944,3 @@ _SkyUI_ also allows the user to access the **Mod Configuration Menu** in-game wh
 
 _SkyUI_ can be installed like any other mod from their [Nexus page](https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=description). Refer to [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#downloading-and-installing-mods) for the procedures.
 
-# Closing Thoughts 
