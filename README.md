@@ -799,6 +799,18 @@ Scripts are included in the plugins (LINK) you install. While they can be a prob
 SKSE does not use MO2 and must be manually placed into your SSE directory. 
 
 1. Navigate to the [SKSE website](https://skse.silverlock.org/).
+2. Look for **Current SE Build** at the top of the page, then click **7z archive** to download the ZIP file.
+3. Open the ZIP file
+4. Extract **all** the content into the SSE directory. Merge all folders when asked.
+5. In MO2, open the **Executable Settings**.
+6. Click ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20Add.png), then select **Add from file**. You will open the Windows File Explorer
+7. Navigate to your SSE directory, then select the **SKSE_64loader** executable file.
+8. Back in the **Executables Setting**, click **Apply**, then **OK**.
+9. In the **Executables Menu**, open the executable list, then select **skse64_loader**.
+10. Click **Run**. You will be running SSE through SKSE.
+11. On the game's title screen, press the (~) key. You will be opening the game's console.
+12. Type **SKSE version** into the console. If you get a message similar to the image below, SKSE is installed. If not, make sure all of the files have been properly extracted to the SSE directory. 
+
 
 
 # Closing Thoughts 
