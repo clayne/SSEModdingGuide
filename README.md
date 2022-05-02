@@ -534,7 +534,7 @@ Since creating a mod will use **all** files in Overwrite, it is recommended that
 
 ## Executable Menu
 
-The Executable Menu is for launching programs that were connected to MO2 through the Executable Settings(LINK THIS). The figure below highlights the components of the menu. 
+The Executable Menu is for launching programs that were connected to MO2 through the [Executables Settings](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executables). The figure below highlights the components of the menu. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Executable%20panel%20highlight.png)
 
@@ -873,7 +873,6 @@ _SkyUI_ is an interface mod that improves the usability of Skyrim's UI by reduci
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKYUI.jpg)
 
 _SkyUI_ also allows the user to access the **Mod Configuration Menu** in-game which is a menu that allows you to configure your installed mods (if included by the mod author). Due to the popularity of this interface, mod authors will design their mods with this interface mind, making it a requirement for a majority of mods.
-
 
 ### Installing SkyUI
 
