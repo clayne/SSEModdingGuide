@@ -401,7 +401,7 @@ The table below represents the available columns to sort by.
 |---|---|
 |**Mod Name**   | Modlist is organized alphabetically. |   
 |**Conflict**   | Modlist is organized based on which mods are conflicting with one another. This usually occurs when mods have files of the same name. |   
-| **Flags**  | Modlist is organized based on the notification icons assigned to them. The icons will only display when specific conditions are met. For more information, see the Flags section below LINK THIS LATER |   
+| **Flags**  | Modlist is organized based on the notification icons assigned to them. The icons will only display when specific conditions are met. For more information, refer to the [Flags section](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#flags). |   
 | **Content**  | Modlist is organized based on the category assigned by their author. If the mod has not been assigned a category, it will be set towards the bottom of the list. See Custom Categories to learn about assigning categories to mods. |  
 | **Version Number**  | Modlist is organized based on their version number and if they are up to date.| 
 | **Priority**  | Modlist is organized based on their assigned priority number. This number determines the order in which mods will load when opening the managed game. For more details on Priority, see Mod Priority/Load Order. | 
