@@ -75,7 +75,7 @@ To create a Nexus account:
 
 ## Installing Mod Organizer 2
 
-Mod Organizer 2 (MO2) is a program that will download and manage mod files for you. See [Introduction to Nexus Mods](https://github.com/CDimang/SSEModdingGuide/edit/main/README.md#introduction-to-nexus-mods) for more info.
+Mod Organizer 2 (MO2) is a program that will download and manage mod files for you. See [Introduction to Nexus Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#introduction-to-nexus-mods) for more info.
 
 1. Navigate to MO2's [page on Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files).
 2. Click the **Files** tab.
@@ -189,7 +189,7 @@ The left panel lists all the Instances that you've made. Clicking an item in the
 
 The options to manage your Instances include:
 
-* _Create New Instance_ - Adds another game to manage (Refer to [Adding your Game to MO2](https://github.com/CDimang/SSEModdingGuide/edit/main/README.md#adding-your-game-to-mo2) for the procedures). This will be required every time you want to manage another game with MO2.
+* _Create New Instance_ - Adds another game to manage (Refer to [Adding your Game to MO2](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#adding-your-game-to-mo2) for the procedures). This will be required every time you want to manage another game with MO2.
 * _Open INI_ - Opens the configuration file for the Instance. This option should be left alone.
 * _Delete Instance_ - Deletes the selected Instance. A window displaying all associated files will be shown before you can remove the Instance.
 * _Switch to this Instance_ - MO2 will restart and switch to the selected Instance.
