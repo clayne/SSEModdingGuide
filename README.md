@@ -299,7 +299,7 @@ The options to manage your programs is located above the list. These functions a
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20move%20ex.png) _Rearrange List_ - Move the selected executable up or down the list.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/execute%20add%20default%20plugin.png) _Add Default Plugins_ - Adds executables based on the Instance's game (i.e. adds the Skyrim executable file if the Instance is based on Skyrim). By default, the Instance will have the managed game's executables setup.
 
-To access your executables, see Executable Menu LINK THIS LATER
+To access your executables, see [Executable Menu](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executable-menu).
 
 The image below highlights additional settings for the executables. 
 
