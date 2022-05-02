@@ -110,6 +110,8 @@ This section will explain the virtual directory and how to set up your game for 
 An _Instance_ will need to be created every time you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read its own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for having an Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. The image below is an illustration of MO2 redirecting the Skyrim.exe to the MO2 folder.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Virtual.png)
+|:--:| 
+| *MO2 executing Skyrim and redirecting the game to the MO2 directory* |
 
 ### Adding your Game to MO2
 
@@ -149,6 +151,8 @@ The interface consists of four sections:
 * Plugins
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Label%20UI%20nolog.png)
+|:--:| 
+| *The 4 main sections of MO2's interface* |
 
 The sections below will explain the functionally of each element.
 
@@ -171,6 +175,8 @@ This section will explain each button and how to use them.
 The _Instance Manager_ for creating and managing Instances in MO2. This feature is required whenever you want to add or switch games in MO2. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Instance%20ui.png)
+|:--:| 
+| *Instance Manager window with two games added* |
 
 The left panel lists all the Instances that you've made. Clicking an item in the list will display additional information regarding the Instance; the table below represents the information that will be displayed.
 
@@ -224,6 +230,8 @@ The tools available by default are:
 * _INI Editor_: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. The image below is an example of the editor viewing the Skyrim ini files.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20ini%20window.png)
+   |:--:| 
+   | *INI Editor accessing the three configuration files for Skyrim* |
    
 As of the making of this document, most tools are now managed by the [Executables](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executables) feature.
 
@@ -244,6 +252,8 @@ The following information will be unique to each profile:
 The image below is the _Profile Manager_ which allows you to create, delete, and edit your profiles. Select any of the profiles in the list, then clicking **Select** will swap MO2 to the selected profile, mirroring any configurations set in the selected profile. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Profile%20Window.png)
+|:--:| 
+| *Profile list with 4 profiles* |
 
 The options to manage your profile include:
 
@@ -260,6 +270,8 @@ The options to manage your profile include:
 The _Configuration_ settings has 8 tabs that controls the functionality of MO2 (e.g., languages, mod color coordination, folder directory, etc.). Use this window to tailor MO2 to your liking. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20window.png)
+|:--:| 
+| *Configuration window |
 
 The table below represents what each tab controls.
 
@@ -288,6 +300,9 @@ The _Executables_ is for managing programs added to MO2. When adding a program t
 The figure below is an example of the Executables window on a fresh SSE Instance. The left side lists all programs added to MO2 and the right side displays information associated with the selected program such as the file location. These programs are shared between all profiles. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20execute%20menu.png)
+|:--:| 
+| *Three executables for a fresh Instance* |
+
 
 The options to manage your programs is located above the list. These functions are:
 
@@ -301,6 +316,8 @@ To access your executables, see [Executable Menu](https://github.com/CDimang/SSE
 The image below highlights additional settings for the executables. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20execute%20menu%20high.png)
+|:--:| 
+| *Extra settings for Instances* |
 
 These additional settings include:
 
@@ -325,6 +342,8 @@ Nexus Mods uses an endorsement system which influences how much exposure a mod w
 The _Notifications_ icon will inform you of any potential problems in your MO2 configuration. Click the icon to open a window that will explain why there is a warning and how to fix for it. The image below is an example of the notification window explaining the issue. Having a notification doesn't always mean there is an error, but you should try to resolve issues as they appear.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20warning%20desc.png)
+|:--:| 
+| *Notification warning you about the Overwrite folder* |
 
 ### Update Mod Organizer
 
@@ -357,6 +376,8 @@ The _Installation Panel_ is where all installed mods will be listed. You will be
 The figure below highlights the important components of the panel.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Installation%20panel%20highlight%20labels%202.png)
+|:--:| 
+| *The main components of the Installation Panels* |
 
 The highlighted elements in the figure above is for the following:
 
@@ -372,11 +393,15 @@ The highlighted elements in the figure above is for the following:
 * _ModList_ - Lists all installed mods. Mods listed here will display their name, conflicts, flags, category, version number, and priority number. The checkboxes to the left of the mod's name will indicate the mods status via checkmark for active or blank for disabled. More information on the list will be explained in the [Sorting the Modlist](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#sorting-the-modlist) section.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Modlist%20mods.png)
+   |:--:| 
+   | *Example of a modlist with three mods installed* |
   
 * _Search Bar_ - A search filter that will update the list as you input characters.
 * _Mod Filter_ - Opens a side panel with options to show or hide mods based on specified conditions. The image below is an example of using the filter with three scenarios (A, B, and C respectively). Clicking the checkboxes will cycle through **show** or **hide** mods (Indicated by a green checkmark or red dash respectively).
  
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/filter%203%20example%203%20small.png)
+   |:--:| 
+   | *Three scenarios for using the filter* |
    
    To further elaborate on the image above:
    
@@ -391,6 +416,9 @@ Organizing your modlist will help you keep track of your installed mods, especia
 One way to sort your mods is by clicking the columns at the top of the list; your mods will be arranged based on the column selected. By default, your modlist will be sorted by Priority.  
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/sort%20installation.png)
+|:--:| 
+| *Columns to organize the modlist* |
+
 
 The table below represents the available columns to sort by.
 
@@ -413,6 +441,8 @@ NOTE: You cannot click and drag mods unless your modlist is sorted by Priority.
 _Flags_ are notifications that appear when the associated mod has met a specific condition. The flags are intended to notify you if mods are interacting with one another or meets a criterion that should be addressed. The figure below is an example of mods being marked with flags. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Flags%20example.png)
+|:--:| 
+| *Mods that were flagged* |
 
 The flags that can be displayed include:
 
@@ -436,11 +466,11 @@ To assign a category to a mod:
 1. Right click a mod in the modlist.
 2. Click **Change Categories**. A list of categories will appear. 
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Change%20Category.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Change%20Category.png)
 
 3. Click the **Checkbox** of the category you wish to assign to the mod.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Change%20Category%202.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Change%20Category%202.png)
 
 If the mod has multiple categories, you can choose the displayed category by clicking **Primary Category** (located beneath **Change Categories**) and selecting a category in the list. 
 
@@ -460,6 +490,8 @@ When selecting a mod in the list, mods that are interacting with the selected mo
 The image below is an example of multiple mods interacting with **TK Dodge SE**, the selected mod.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/color%20plugin%202.png)
+|:--:| 
+| *Multiple mods that are interacting with the selected plugin* |
 
 The colors in the image above represents the following interactions:
 
@@ -485,6 +517,8 @@ The load order determines which mods will take precedent when loading the game. 
 The image below is an illustration of a load order consisting of three mods interacting with one another. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Load%20Order%20Image.png)
+|:--:| 
+| *Example of how a game loads with three mods* |
 
 The figure above presents the following information:
 
@@ -508,6 +542,8 @@ When installing multiple mods that interact with the same in-game elements, be s
 The _Overwrite_ folder stores all files that would have been placed into the game's directory. **The folder will always be considered an enabled mod**. You can access this folder by clicking **Overwrite** at the bottom of the modlist. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/overwrite%20and%20folder.png)
+|:--:| 
+| *Overwrite folder with content inside* |
 
 Files that are dumped into Overwrite are typically from mods or tools that generate an output file to function. Some examples include:
 
@@ -533,6 +569,8 @@ Since creating a mod will use **all** files in Overwrite, it is recommended that
 The _Executable Menu_ is for launching programs that were connected to MO2 through the [Executables Settings](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executables). The figure below highlights the components of the menu. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Executable%20panel%20highlight.png)
+|:--:| 
+| *The three main components of the Executable Menu* |
 
 The components in the image above are for the following functions:
 
@@ -546,6 +584,9 @@ The components in the image above are for the following functions:
 Plugins are scripts that are used to add features into Skyrim's game engine. This is how mod authors inject brand new features into the game. Plugins are typically included with mods that are installed; however, not every mod will use a plugin. The Plugin Panel is where you will manage all plugins that are added to your game. Alongside Plugins, you can also manage other information here such as save data or downloads. The image below is an example of viewing the _Data_ tab, which displays all the files used in the Instance.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Data.png)
+|:--:| 
+| *Plugin Panel viewing the Data tab* |
+
 
 The panel consists of five tabs which are for the following:
 
@@ -564,6 +605,9 @@ Given the scope of this document, the sections below will only focus on the _Plu
 The _Plugins Tab_ will list all installed plugins (ESP, ESL, or ESM files). Not every mod will use a plugin, so do not worry if the number of active plugins do not match the number of active mods. The image below is an example of the tab with over 200 plugins.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Plugin%20Panel.png)
+|:--:| 
+| *Viewing some of the active plugins* |
+
 
 At first glance, the image above shares similar features to the Installation Panel such as the checkboxes, active plugin count, and ability to drag plugins through the list. Due to the nature of plugins, the load order in this tab will be independent from the Installation Panel.
 
@@ -583,6 +627,9 @@ Sorting your plugins into a proper order is one of the best ways to create a sta
 To use LOOT, click the **Sort** button at the top of the window; the LOOT window will open and begin sorting your plugin list. Once it has finished sorting, the window will inform you of any potential conflicts. The image below is an example of the LOOT window displaying a potential conflict.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Loot%20Window%20Sorted.png)
+|:--:| 
+| *Loot displaying potential conflicts after sorting* |
+
 
 ```
 NOTE: It is recommended that you ALWAYS use LOOT whenever you add a new plugin.
@@ -597,6 +644,9 @@ Some good plugin practices to consider are as follow:
 * Plugins should **never** be removed from an active playthrough (existing save file). The game will attempt to call the removed plugin which will likely crash your game. The image below is the warning message that appears when you load a save file with a missing plugin.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/missing%20plugin.png)
+   |:--:| 
+   | *Do not try to play the file after removing a plugin* |
+  
   
 * It is generally okay to add plugins to an active playthrough unless stated otherwise by the mod author.
 * Always make a copy of your save file before adding plugins (if adding to an active playthrough). This is so you can revert to an old save file if you find issues with an added plugin.
@@ -607,6 +657,8 @@ Some good plugin practices to consider are as follow:
 When downloading mods from Nexus, all files will be directed to MO2's download folder and displayed in this tab. The figure below is an example of the tab with two mods downloaded.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20tab.png)
+|:--:| 
+| *Two files downloaded from Nexus* |
 
 This tab will display the following information for the files:
 
@@ -622,6 +674,9 @@ You can install mods from this tab by double-clicking a file.
 Nexus Mods (Nexus) is a website where users can upload and download mods. The website is free to use and is easily accessible for anyone who wants to mod their games. The image below is homepage which displays the most popular games on the website.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Homepage.png)
+|:--:| 
+| *Homepage* |
+
 
 This section will focus on teaching you how to use the website. By the end of this section, you will know:
 
@@ -636,6 +691,9 @@ Starting out, the website can feel confusing to navigate at times, so this secti
 Each game has their own section which helps keep the website organized. From the homepage you can select your favorite games to begin looking for mods. In the image below, the browser was directed to the Skyrim Special Edition section of the website.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Skyrim%20Section.png)
+|:--:| 
+| *The current section you are browsing (Skyrim Special Edition)* |
+
 
 While you are in the game's section of the website, links and searches done will only display content related to the section (e.g., if you are in the Skyrim section, only Skyrim content will appear if you use the search bar).
 
@@ -651,22 +709,20 @@ If you are searching for a specific mod category:
 
 1. At the top of the screen, click **Mods** > **Mod Categories**
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mods%20to%20Mod%20Category.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mods%20to%20Mod%20Category.png)
 
 2. Click a category of your choosing.
-
-
 
 If you want to search for multiple mod categories:
 
 1. At the top of the screen, click **Mods** > **Browse All** (any option in **Mods** would suffice here)
 2. In the **Refine Results** box, click the **Blue Box** on the right.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Specific%20Category%201.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Specific%20Category%201.png)
 
 3. Inside the **Refine By Category** section, click the checkboxes of your desired categories.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mods%20to%20Mod%20Category%202.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mods%20to%20Mod%20Category%202.png)
 
 4. Click **Apply Filter**
 
@@ -679,18 +735,21 @@ To block content on the website:
 
 1. In the top right of Nexus, click **your Profile Icon** > **Site Preferences**.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Block%20Content%201.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Block%20Content%201.png)
 
 2. Click **Content Blocking**
 3. In the **Search for tags to block** section, click the tags of any categories you wish to block. Blocked content will be highlighted in red
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Block%202.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Block%202.png)
 
 ## Understanding the Mod Page
 
 The mod page of any mods that interest you will provide information such as features, bugs, and community feedback. The image below is the mod page for the _Unofficial Skyrim Special Edition Patch_, one of the most popular mods on the website.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mod%20Page%201.png)
+|:--:| 
+| *General information you will see when you enter a mod page* |
+
 
 The image above highlights general information that serves as a preview when you open the page. The information provides the following:
 
@@ -709,6 +768,8 @@ The image above highlights general information that serves as a preview when you
 The tabs on the mod page will provide information on the mod. Clicking a tab will display it in the bottom half of the page. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Mod%20page%20tabs.png)
+|:--:| 
+| *Tabs that are active for this particular mod page* |
 
 The blue boxes next to the names of the tabs represents how many items are uploaded to the tab.
 
@@ -780,6 +841,8 @@ This section will explain the importance of each mod and how to install them.
 ## Skyrim Script Extender (SKSE)
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%20Logo.jpg)
+|:--:| 
+| *SKSE Logo* |
 
 _SKSE_ is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynamic features. Therefore, _SKSE_ is needed in order to create scripts that can introduce unique features and mechanics into the game.  
 
@@ -825,6 +888,9 @@ _SKSE_ is not from Nexus and must be manually placed into your SSE directory.
 ## Unofficial Skyrim Special Edition Patch (USSEP)
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Unofficial%20Patch%20banner.png)
+|:--:| 
+| *USSEP Banner* |
+
 
 _USSEP_ is a mod that is intended to eventually fix every bug in SSE. The amount of changes is large, so please visit the [Unofficial Patch Project Team website](https://www.afkmods.com/Unofficial%20Skyrim%20Special%20Edition%20Patch%20Version%20History.html) if you want to review all the fixes made in the patch.
 
@@ -868,6 +934,9 @@ _SkyUI_ is an interface mod that improves the usability of Skyrim's UI by reduci
 * Using icons to display item categories.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKYUI.jpg)
+|:--:| 
+| *Default UI compared to SkyUI* |
+
 
 _SkyUI_ also allows the user to access the **Mod Configuration Menu** in-game which is a menu that allows you to configure your installed mods (if included by the mod author). Due to the popularity of this interface, mod authors will design their mods with this interface mind, making it a requirement for most mods.
 
