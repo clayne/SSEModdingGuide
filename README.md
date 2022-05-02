@@ -854,10 +854,24 @@ To install _SSE Engine Fixes_:
 3. Look for **(Part 1) SSE Engine Fixes for 1.5.39 - 1.5.97**. Click **Mod Manager Download**
    * Follow the standard installation procedures (LINK) to install **Part 1**.
 4. Once you've installed **Part 1**, go back to the **Files** on Nexus and look for **(Part 2) Engine Fixes - skse64 Preloader and TBB Lib**. Click **Manual Download**.
+
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Engine%20Part%201.png)
+
 5. Open the downloaded ZIP file and extract all its content into your SSE directory. Overwrite all files if asked.
 
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Engine%20Part%202.png)
 
 ## SkyUI
+
+_SkyUI_ is an interface mod that improves the usability of Skyrim's UI by reducing the amount of empty space used and showing more information on the screen. The image below is a comparison between the original UI and _SkyUI_. As seen on the right side, some noticable differences include:
+
+* Showing more items on the screen.
+* Providing information on the items without clicking the items.
+* Including a search function to find specific items.
+* Using icons to display item categories.
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKYUI.jpg)
+
 ### Installing SkyUI
 
 # Closing Thoughts 
