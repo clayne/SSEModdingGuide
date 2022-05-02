@@ -790,11 +790,11 @@ Some examples of scripted mods include:
 * When swinging your weapon, a fireball could be shot from the weapon.
 * When you ride a horse, your character can now fly.
 
-Scripts are always included with any plugin(LINK) you install. While they can be a problem if mismanaged, they are essential for creating mods for Skyrim. SKSE is required for every mod that includes a script.
+Scripts are always included with any [plugin](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#plugin-panel) you install. While they can be a problem if mismanaged, they are essential for creating mods for Skyrim. SKSE is required for every mod that includes a script.
 
 ### Installing SKSE
 
-_SKSE_ does not use MO2 and must be manually placed into your SSE directory. 
+_SKSE_ is not from Nexus and must be manually placed into your SSE directory. 
 
 1. Navigate to the [SKSE website](https://skse.silverlock.org/).
 2. Look for **Current SE Build** at the top of the page, then click **7z archive** to download the ZIP file.
@@ -802,7 +802,7 @@ _SKSE_ does not use MO2 and must be manually placed into your SSE directory.
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%201.png)
 
 3. Open the ZIP file
-4. Extract **all** the content into the SSE directory. Merge all folders when asked.
+4. Extract **all** of the file's content into the SSE directory. Merge all folders when asked.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%202.png)
 
@@ -819,7 +819,7 @@ _SKSE_ does not use MO2 and must be manually placed into your SSE directory.
 
 10. Click **Run**. You will be running SSE through _SKSE_.
 11. On the game's title screen, press the (~) key. You will be opening the game's console.
-12. Type **SKSE version** into the console. If you get a message similar to the image below, _SKSE_ is installed. If not, make sure all of the files have been properly extracted to the SSE directory. 
+12. Type **SKSE version** into the console. If you get a message similar to the image below, _SKSE_ is installed. If not, make sure all the files have been properly extracted to the SSE directory. 
 
     ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%205.png)
 
@@ -841,7 +841,7 @@ _SSE Engine Fixes_ is an _SKSE_ addon that focuses on resolving the many issues 
 
 ### Installing SSE Engine Fixes
 
-_SSE Engine Fixes_ requires _SKSE_ and _Address Library for SKSE Plugins_. SKSE should already be installed by this point. _Address Library for SKSE Plugins_ is an addon that prevents mods from breaking when they don't match the current version of SSE. This means that whenever SSE recieves an update, mods will still function regardless if they are outdated.
+_SSE Engine Fixes_ requires _SKSE_ and _Address Library for SKSE Plugins_. SKSE should already be installed by this point. _Address Library for SKSE Plugins_ is an addon that prevents mods from breaking when they don't match the current version of SSE. This means that whenever SSE receives an update, mods will still function regardless of if they are outdated.
 
 [_Address Library for SKSE Plugins_](https://www.nexusmods.com/skyrimspecialedition/mods/32444) can be installed like any other mod, refer to [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#downloading-and-installing-mods) for the procedures.
 
@@ -861,7 +861,7 @@ To install _SSE Engine Fixes_:
 
 ## SkyUI
 
-_SkyUI_ is an interface mod that improves the usability of Skyrim's UI by reducing the amount of empty space used and showing more information on the screen. The image below is a comparison between the original UI and _SkyUI_. As seen on the right side, some noticable differences include:
+_SkyUI_ is an interface mod that improves the usability of Skyrim's UI by reducing the amount of empty space used and showing more information on the screen. The image below is a comparison between the original UI and _SkyUI_. As seen on the right side, some noticeable differences include:
 
 * Showing more items on the screen.
 * Providing information on the items without clicking the items.
@@ -870,7 +870,7 @@ _SkyUI_ is an interface mod that improves the usability of Skyrim's UI by reduci
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKYUI.jpg)
 
-_SkyUI_ also allows the user to access the **Mod Configuration Menu** in-game which is a menu that allows you to configure your installed mods (if included by the mod author). Due to the popularity of this interface, mod authors will design their mods with this interface mind, making it a requirement for a majority of mods.
+_SkyUI_ also allows the user to access the **Mod Configuration Menu** in-game which is a menu that allows you to configure your installed mods (if included by the mod author). Due to the popularity of this interface, mod authors will design their mods with this interface mind, making it a requirement for most mods.
 
 ### Installing SkyUI
 
