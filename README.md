@@ -370,7 +370,7 @@ The highlighted elements in the figure above is for the following:
    *  The status (enabled or disabled) of the mods at the time of saving.
    *  The flags and notes that were active at the time of saving. 
 * _Active Mod Count_ - Displays the number of enabled mods.
-* _ModList_ - Lists all installed mods. Mods listed here will display their name, conflicts, flags, category, version number, and priority number. The checkboxes to the left of the mod's name will indicate the mods status via checkmark for active or blank for disabled. More information on the list will be explained in the [Sorting the Modlist]() section.
+* _ModList_ - Lists all installed mods. Mods listed here will display their name, conflicts, flags, category, version number, and priority number. The checkboxes to the left of the mod's name will indicate the mods status via checkmark for active or blank for disabled. More information on the list will be explained in the [Sorting the Modlist](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#sorting-the-modlist) section.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Modlist%20mods.png)
   
@@ -411,7 +411,7 @@ NOTE: You cannot click and drag mods unless your modlist is sorted by Priority.
 ```
 #### Flags
 
-Flags are notifications that appear when the associated mod has met a specific condition. The flags are intended to notify you if mods are interacting with one another or meets a criterion that should be addressed. The figure below is an example of mods being marked with flags. 
+_Flags_ are notifications that appear when the associated mod has met a specific condition. The flags are intended to notify you if mods are interacting with one another or meets a criterion that should be addressed. The figure below is an example of mods being marked with flags. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Flags%20example.png)
 
@@ -419,18 +419,18 @@ The flags that can be displayed include:
 
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win.png) _Conflict Win_ - Mod is overwriting at least 1 files from another mod.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20lose.png) _Conflict Lose_ - Mod has atleast 1 files being overwritten by another mod.
-* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win%20and%20lose.png) _Conflict Win Lose_ - Mod is overwriting at least 1 file from another mod while also having 1 of its own files being overwritten
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win%20and%20lose.png) _Conflict Win Lose_ - Mod is overwriting at least 1 file from another mod while also having 1 of its own file being overwritten
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20Redundant%202.png) _Redundant_: Mod has all of its files being overwritten by another mod.
-* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20invalid%20file%20mod.png) _Invalid_ - Mod contains invalid files that cannot be read by MO2. Mods associated with this flag cannot be enabled.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20invalid%20file%20mod.png) _Invalid_ - Mod contains invalid files that cannot be read by MO2. Mods marked with this flag cannot be enabled.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20unendorsed.png) _Unendorsed_ - Mod has not been endorsed by the user. After you install a mod, this icon will appear after an undetermined amount of time.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20personal%20note.png) _Note Added_ - Indicates that a note has been added to the mod. 
-* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20needs%20update.png) _Outdated_ - The mod is outdated and has an update available for download.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20needs%20update.png) _Outdated_ - The mod is outdated and has an update available for download. This flag only appears for mods from Nexus.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/flag%20wrong.png) _Wrong Game/Version_ - Mod is for a different game or game version (e.g., Legendary Edition Skyrim mod vs Special Edition Skyrim mod). 
 
 
 #### Assigning Custom Categories to Mods
 
-Mods can be assigned to any category (e.g., gameplay, immersion, bugfix, etc.) available in MO2. 
+Mods can be assigned to any category (e.g., gameplay, immersion, bugfix, etc.) in MO2. 
 
 To assign a category to a mod:
 
@@ -445,7 +445,7 @@ To assign a category to a mod:
 
 If the mod has multiple categories, you can choose the displayed category by clicking **Primary Category** (located beneath **Change Categories**) and selecting a category in the list. 
 
-If none of the categories feel fitting for a mod, you can create a custom category by doing the following:
+If none of the categories feel fitting for a mod, you can create a custom category with following procedures:
 
 1. Open the **Configuration Settings**.
 2. In the **General** tab, click **Configure Mod Categories**.
@@ -465,7 +465,7 @@ The image below is an example of multiple mods interacting with **TK Dodge SE**,
 The colors in the image above represents the following interactions:
 
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20blue.png) The mod is selected.
-* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20purple.png) The plugin is associated with the selected mod.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20purple.png) The plugin is from the selected mod.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20green.png) The mod is being overwritten by the selected mod.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Color%20highlight%20red.png) The mod is overwriting the selected mod.
 
@@ -476,41 +476,41 @@ Pay close attention to which mods are overwriting one another as there may be un
 * Downloading a patch to resolve the conflict.
 
 ```
-NOTE: Overwritten mods are not always invalidated and is sometimes intended by the mod author to interact with certain mods.
+NOTE: Overwritten mods are not always invalidated and is sometimes intended by the mod author to interact with other mods.
 ```
 
 ### Mod Priority/Load Order
 
 The load order determines which mods will take precedent when loading the game. Mods that edit similar elements in the game will typically share the same files which will end up overwriting each other depending on the load order. In other words, mods that are loaded later will overwrite mods that are loaded earlier. 
 
-The image below is an example of a load order consisting of three mods interacting with one another. 
+The image below is an illustration of a load order consisting of three mods interacting with one another. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Load%20Order%20Image.png)
 
-The figure above represents the following information:
+The figure above presents the following information:
 
 * Skyrim will load mods based on their load order in MO2.
-* **Mod A**(Toothbrush Sword) and **Mod C**(Master Sword) are both editing the model of the Iron Sword, an in-game item from Skyrim.
+* **Mod A**(Toothbrush Sword) and **Mod C**(Master Sword) are both changing the model of the Iron Sword, an in-game item from Skyrim.
 * **Mod B** (Flame effect) also edits the Iron Sword by adding a visual effect. The mod does not touch the model.
 
 Based on the image and the information above, the load order performs the following steps:
 
-1. **Mod A** loads first and the Iron Sword is now a Toothbrush Sword.
+1. **Mod A** loads first and changes the Iron Sword to a Toothbrush Sword.
 2. **Mod B** loads second and adds the flame effect to the Iron Sword (which is now a Toothbrush Sword). It is now a Flaming Toothbrush Sword.
-3. **Mod C** loads and changes the Iron Sword into the Master Sword. The Flaming Toothbrush Sword is now a Flaming Master Sword. 
+3. **Mod C** loads and changes the Iron Sword into the Master Sword, overwriting **Mod A**. The Flaming Toothbrush Sword is now a Flaming Master Sword. 
 4. The game loads with only the Flaming Master Sword (**Mod B** and **C**) active.
 
-The information and illustration above demonstrate how the interaction between multiple mods can create interesting effects, but it can also create redundancies in your modlist.
+The information above demonstrate how the interaction between multiple mods can create interesting combinations, but it can also create redundancies in your modlist.
 
-When installing multiple mods that interact with similar in-game elements, be sure to always read the mod's description page on Nexus to reduce the number of redundancies in your load order. This is especially important when ordering [plugins](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#plugin-panel) that are installed with the mods. 
+When installing multiple mods that interact with the same in-game elements, be sure to always read the mod's description page on Nexus to figure out how it will interact with like-minded mods. You want to reduce the number of redundancies in your load order. This is especially important when ordering [plugins](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#plugin-panel) that are installed with the mods. 
 
 ### Overwrite Folder
 
-The Overwrite folder stores all files that would have been placed into the game's directory. The folder is considered a mod and will always be considered as enabled. You can access this folder by clicking **Overwrite** at the bottom of the modlist. 
+The _Overwrite_ folder stores all files that would have been placed into the game's directory. **The folder will always be considered an enabled mod**. You can access this folder by clicking **Overwrite** at the bottom of the modlist. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/overwrite%20and%20folder.png)
 
-Files that are dumped into Overwrite are typically from mods or tools that generate an output file. Some examples include:
+Files that are dumped into Overwrite are typically from mods or tools that generate an output file to function. Some examples include:
 
 * Crash Logs
 * Information Dumps
@@ -527,11 +527,11 @@ To convert the contents of Overwrite into a mod:
 3. Enter the name of the mod (preferably based on the contents of the folder).
 4. Enable the mod. 
 
-Since creating a mod will use **all** files in Overwrite, it is recommended that you follow the procedures above every time you have files dumped into Overwrite because you want to be able to keep track of all generated files. While mixing files from multiple mods is not harmful to your game, keeping track of the files may be very inconvenient. 
+Since creating a mod will use **all** files in Overwrite, it is recommended that you follow the procedures above as soon as you have files dumped into Overwrite because you want to be able to keep track of where the generated files are from. While mixing Overwrite files from multiple sources is not harmful to your game, keeping track of the files may be very inconvenient. 
 
 ## Executable Menu
 
-The Executable Menu is for launching programs that were connected to MO2 through the [Executables Settings](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executables). The figure below highlights the components of the menu. 
+The _Executable Menu_ is for launching programs that were connected to MO2 through the [Executables Settings](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executables). The figure below highlights the components of the menu. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Executable%20panel%20highlight.png)
 
@@ -562,7 +562,7 @@ Given the scope of this document, the sections below will only focus on the _Plu
 
 ### Plugins Tab
 
-The Plugins Tab will list all installed plugins (ESP, ESL, or ESM files). Not every mod will require a plugin to function, so do not worry if the number of active plugins does not match the number of active mods. The image below is an example of the tab with over 200 plugins.
+The _Plugins Tab_ will list all installed plugins (ESP, ESL, or ESM files). Not every mod will use a plugin, so do not worry if the number of active plugins do not match the number of active mods. The image below is an example of the tab with over 200 plugins.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Plugin%20Panel.png)
 
@@ -571,7 +571,7 @@ At first glance, the image above shares similar features to the Installation Pan
 
 #### Using the Load Order Optimization Tool (LOOT)
 
-The Plugins tab uses an addon known as Loot Order Optimization Tool (LOOT) which automatically sorts your plugin list. LOOT uses a master list developed by numerous mod authors to determine the best way to order mods based on their category, scope, and implementation. 
+The Plugins Tab uses an addon known as the _Loot Order Optimization Tool_ (LOOT), a plugin that automatically sorts your plugin list. LOOT uses a master list developed by numerous mod authors to determine the best way to order mods based on their category, scope, and implementation. 
 
 In addition to sorting your mods, the program also includes:
 
@@ -591,17 +591,17 @@ NOTE: It is recommended that you ALWAYS use LOOT whenever you add a new plugin.
 
 #### Good Plugin Practices
 
-Much like mods, plugins can also be enabled or disabled by clicking the associated checkboxes in the plugin tab. While plugins can introduce unique features to Skyrim, it can lead to numerous issues if mismanaged. 
+Much like mods, plugins can also be enabled or disabled by clicking the associated checkboxes in the plugin tab. While plugins can introduce unique features to Skyrim, they can create numerous issues if mismanaged. 
 
-Consider the following information:
+Some good plugin practices to consider are as follow:
 
-* Plugins should **never** be removed from an active playthrough (existing save file). The game will attempt to call the removed plugin which will likely lead to your game crashing. The image below is the warning message that appears when you load a save file with a missing plugin.
+* Plugins should **never** be removed from an active playthrough (existing save file). The game will attempt to call the removed plugin which will likely crash your game. The image below is the warning message that appears when you load a save file with a missing plugin.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/missing%20plugin.png)
   
 * It is generally okay to add plugins to an active playthrough unless stated otherwise by the mod author.
-* The game will not load plugins until you open a save file (in-game via past the title screen via New Game or Continue Game). This prevents all existing files from being affected by new plugins.
-* Always make a copy of your save file before adding plugins. This is so you can revert back to an old save file if you find issues with an added plugin.
+* Always make a copy of your save file before adding plugins (if adding to an active playthrough). This is so you can revert to an old save file if you find issues with an added plugin.
+* The game will not load plugins until you open a save file (in-game via past the title screen through New Game or Continue Game). This prevents all existing files from being affected by new plugins.
 
 ### Downloads Tab
 
