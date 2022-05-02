@@ -769,7 +769,36 @@ This section will demonstrate how to use MO2 and Nexus to download and install m
 
 # Essential Mods for Skyrim
 
+Regardless of how many mods you want to include in Skyrim, there are 4 mods that should **always** be included in a playthrough. Skyrim is known have numerous bugs and limitations that can negatively impact the user experience. Such issues include random crashes, unintentional effects in-games, and unoptimized gameplay. 
 
+There are four essential mods designed to resolve the numerous issues with Skyrim. These include:
+
+* _Skyrim Script Extenter (SKSE)_ - An addon to Skyrim's game engine that expands the limitations of scripts that can be used in-game
+* _Unofficial Skyrim Special Edition Patch (USSEP)_ - A community made patch that aims to fix every bug that has not been officially resolved by Bethesda
+* _Skyrim Special Edition Engine Fixes_ - A SKSE plugin that resolves the numerous issues that are included with Skyrim's Creation Engine.
+* _SKY UI_ - While a UI mod is not technically "essential", it fixes the cumbersome interface of Skyrim by providing a more user-friendly menu. A majority of mods rely on _SKY UI_ to implement their features.
+
+This section will explain the importance of each mod and how to install them.
+
+## Skyrim Script Extender (SKSE)
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%20Logo.jpg)
+
+SKSE is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynanmic features. This is why SKSE is needed in order to create scripts that can introduce unique features and mechanics into the game.  
+
+Some examples of scripted mods include:
+
+* When dying in-game, your character can get teleported to the nearest inn.
+* When swinging your weapon, a fireball could be shot from the weapon.
+* When you ride a horse, your character can now fly.
+
+Scripts are included in the plugins (LINK) you install. While they can be a problem if mismanaged, they are essential for creating mods for Skyrim. SKSE is required for every mod that includes a script.
+
+### Installing SKSE
+
+SKSE does not use MO2 and must be manually placed into your SSE directory. 
+
+1. Navigate to the [SKSE website](https://skse.silverlock.org/).
 
 
 # Closing Thoughts 
