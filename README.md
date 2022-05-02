@@ -775,7 +775,7 @@ There are four essential mods designed to resolve the numerous issues with Skyri
 
 * _Skyrim Script Extenter (SKSE)_ - An addon to Skyrim's game engine that expands the limitations of scripts that can be used in-game
 * _Unofficial Skyrim Special Edition Patch (USSEP)_ - A community made patch that aims to fix every bug that has not been officially resolved by Bethesda
-* _Skyrim Special Edition Engine Fixes_ - A SKSE plugin that resolves the numerous issues that are included with Skyrim's Creation Engine.
+* _Skyrim Special Edition Engine Fixes_ - A _SKSE_ plugin that resolves the numerous issues that are included with Skyrim's Creation Engine.
 * _SkyUI_ - While a UI mod is not technically "essential", it fixes the cumbersome interface of Skyrim by providing a more user-friendly menu. A majority of mods rely on _SkyUI_ to implement their features.
 
 This section will explain the importance of each mod and how to install them.
@@ -784,7 +784,7 @@ This section will explain the importance of each mod and how to install them.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%20Logo.jpg)
 
-SKSE is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynanmic features. This is why SKSE is needed in order to create scripts that can introduce unique features and mechanics into the game.  
+_SKSE_ is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynanmic features. This is why _SKSE_ is needed in order to create scripts that can introduce unique features and mechanics into the game.  
 
 Some examples of scripted mods include:
 
@@ -796,7 +796,7 @@ Scripts are included in the plugins (LINK) you install. While they can be a prob
 
 ### Installing SKSE
 
-SKSE does not use MO2 and must be manually placed into your SSE directory. 
+_SKSE_ does not use MO2 and must be manually placed into your SSE directory. 
 
 1. Navigate to the [SKSE website](https://skse.silverlock.org/).
 2. Look for **Current SE Build** at the top of the page, then click **7z archive** to download the ZIP file.
@@ -819,9 +819,9 @@ SKSE does not use MO2 and must be manually placed into your SSE directory.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%204.png)
 
-10. Click **Run**. You will be running SSE through SKSE.
+10. Click **Run**. You will be running SSE through _SKSE_.
 11. On the game's title screen, press the (~) key. You will be opening the game's console.
-12. Type **SKSE version** into the console. If you get a message similar to the image below, SKSE is installed. If not, make sure all of the files have been properly extracted to the SSE directory. 
+12. Type **SKSE version** into the console. If you get a message similar to the image below, _SKSE_ is installed. If not, make sure all of the files have been properly extracted to the SSE directory. 
 
     ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%205.png)
 
@@ -829,10 +829,33 @@ SKSE does not use MO2 and must be manually placed into your SSE directory.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Unofficial%20Patch%20banner.png)
 
+_USSEP_ is a mod that is intended to eventually fix every bug in SSE. The amount of changes is large, so please visit the [Unofficial Patch Project Team website](https://www.afkmods.com/Unofficial%20Skyrim%20Special%20Edition%20Patch%20Version%20History.html) if you want to review all the fixes made in the patch.
+
+The patch is designed to work with every mod. Given the popularity of this patch, many authors design their mod with this patch mind, making it a requirement for a majority of mods. 
+
 ### Installing USSEP
 
+USSEP can be installed like any other mod from Nexus. Refer to Downloading and Installing Mods (LINK) for the procedures.
+
 ## Skyrim Special Edition Engine Fixes (SSE Engine Fixes)
+
+_SSE Engine Fixes_ is an _SKSE_ addon that focuses on resolving the many issues that come from Skyrim's game engine such as preventing your save files from being corrupted or increasing file limit of the game. 
+
 ### Installing SSE Engine Fixes
+
+_SSE Engine Fixes_ requires _SKSE_ and _Address Library for SKSE Plugins_. SKSE should be installed by point. _Address Library for SKSE Plugins_ is an addon that prevents mods from breaking when they don't match the current version of SSE. This means that whenever SSE recieves an update, mods will still function regardless if they are outdated.
+
+_Address Library for SKSE Plugins_ can be installed like any other mod, refer to Download and Installing Mods (LINK) for the procedures.
+
+To install _SSE Engine Fixes_:
+
+1. Navigate to the [SSE Engine Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=description) page on Nexus
+2. Click on the **Files** tab.
+3. Look for **(Part 1) SSE Engine Fixes for 1.5.39 - 1.5.97**. Click **Mod Manager Download**
+   * Follow the standard installation procedures (LINK) to install **Part 1**.
+4. Once you've installed **Part 1**, go back to the **Files** on Nexus and look for **(Part 2) Engine Fixes - skse64 Preloader and TBB Lib**. Click **Manual Download**.
+5. Open the downloaded ZIP file and extract all its content into your SSE directory. Overwrite all files if asked.
+
 
 ## SkyUI
 ### Installing SkyUI
