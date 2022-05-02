@@ -227,7 +227,7 @@ The tools available by default are:
 
 * _Bethesda Software Archive (BSA) Packer_: Creates BSA files using resources from the managed game or mods. For general modding, this plugin is not needed. 
 * _Fores New Idles in Skyrim_ (FNIS): A tool that allows Skyrim to have more animations. As of 2020, this plugin has been made obsolete by [Nemesis](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases), a more up to date animation tool.
-* _INI Editor_: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. The image below is an example of the editor viewing the Skyrim ini files.
+* _INI Editor_: A built-in text editor that opens the game's configuration (ini) files. This will be important for editing the appearance of your game for either performance or visual reasons. The image below is an example of the editor viewing the Skyrim INI files.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20ini%20window.png)
    |:--:| 
@@ -267,7 +267,7 @@ The options to manage your profile include:
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20ICOn.png)
 
-The _Configuration_ settings has 8 tabs that controls the functionality of MO2 (e.g., languages, mod color coordination, folder directory, etc.). Use this window to tailor MO2 to your liking. 
+The _Configuration_ settings have 8 tabs that controls the functionality of MO2 (e.g., languages, mod color coordination, folder directory, etc.). Use this window to tailor MO2 to your liking. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20window.png)
 |:--:| 
@@ -327,7 +327,7 @@ These additional settings include:
 * _Use application's icon for desktop shortcut_ - Use the executable's icon when creating shortcuts
 * _Hide in user interface_ - The selected executable will be hidden in MO2.
 
-For the purpose of this guide, the aforementioned settings should be kept on their default settings.
+For this guide, the aforementioned settings should be kept on their default settings.
 
 ### Endorsement
 
@@ -447,7 +447,7 @@ _Flags_ are notifications that appear when the associated mod has met a specific
 The flags that can be displayed include:
 
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win.png) _Conflict Win_ - Mod is overwriting at least 1 files from another mod.
-* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20lose.png) _Conflict Lose_ - Mod has atleast 1 files being overwritten by another mod.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20lose.png) _Conflict Lose_ - Mod has at least 1 files being overwritten by another mod.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20conflict%20win%20and%20lose.png) _Conflict Win Lose_ - Mod is overwriting at least 1 file from another mod while also having 1 of its own file being overwritten
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20Redundant%202.png) _Redundant_: Mod has all of its files being overwritten by another mod.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20invalid%20file%20mod.png) _Invalid_ - Mod contains invalid files that cannot be read by MO2. Mods marked with this flag cannot be enabled.
@@ -533,7 +533,7 @@ Based on the image and the information above, the load order performs the follow
 3. **Mod C** loads and changes the Iron Sword into the Master Sword, overwriting **Mod A**. The Flaming Toothbrush Sword is now a Flaming Master Sword. 
 4. The game loads with only the Flaming Master Sword (**Mod B** and **C**) active.
 
-The information above demonstrate how the interaction between multiple mods can create interesting combinations, but it can also create redundancies in your modlist.
+The information above demonstrates how the interaction between multiple mods can create interesting combinations, but it can also create redundancies in your modlist.
 
 When installing multiple mods that interact with the same in-game elements, be sure to always read the mod's description page on Nexus to figure out how it will interact with like-minded mods. You want to reduce the number of redundancies in your load order. This is especially important when ordering [plugins](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#plugin-panel) that are installed with the mods. 
 
@@ -844,7 +844,7 @@ This section will explain the importance of each mod and how to install them.
 |:--:| 
 | *SKSE Logo* |
 
-_SKSE_ is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynamic features. Therefore, _SKSE_ is needed in order to create scripts that can introduce unique features and mechanics into the game.  
+_SKSE_ is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynamic features. Therefore, _SKSE_ is needed to create scripts that can introduce unique features and mechanics into the game.  
 
 Some examples of scripted mods include:
 
