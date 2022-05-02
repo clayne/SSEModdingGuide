@@ -317,13 +317,13 @@ For the purpose of this guide, the aforementioned settings should be kept on the
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20endorse.png)
 
-Nexus Mods uses an endorsement system which influences how much exposure a mod will get on the website based on how many users endorse the mod. This button is only for endorsing MO2 on Nexus. 
+Nexus Mods uses an endorsement system which influences how much exposure a mod will get on the website. This button is only for endorsing MO2 on Nexus. 
 
 ### Notification
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20warning%20high%202.png)
 
-The Notification icon will inform you of any potential problems in your MO2 configuration. Click the icon to open a window that will explain the problem and the potential fix for it. The image below is an example of the notification window explaining the issue. Having a notification doesn't mean that your modded game won't work, but you should try to resolve the issues as they appear.
+The _Notifications_ icon will inform you of any potential problems in your MO2 configuration. Click the icon to open a window that will explain why there is a warning and how to fix for it. The image below is an example of the notification window explaining the issue. Having a notification doesn't always mean there is an error, but you should try to resolve issues as they appear.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20warning%20desc.png)
 
@@ -337,7 +337,7 @@ If available, clicking the Update Mod Organizer button will update MO2 to the la
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20help%20ICON.png)
 
-The Help button is a menu that will provide additional resources to teach you about MO2. The table below represents the resources available to you. 
+The _Help_ button is a menu that will provide resources to teach you about MO2. The table below represents the resources available. 
 
 | Resource |Description|   
 |---|---|
@@ -351,7 +351,7 @@ The Help button is a menu that will provide additional resources to teach you ab
 
 ## Installation Panel
 
-The Installation Panel is where all installed mods will be listed. You will be able to enable, disable, organize, and sort mods in this area. This section of the document will explain each UI element of the panel and how to use each element for your mods.
+The _Installation Panel_ is where all installed mods will be listed. You will be able to enable, disable, organize, and sort mods in this panel. This section of the document will explain each UI element of the panel and how to use each element for your mods.
 
 ### Interface Elements
 
@@ -359,18 +359,18 @@ The figure below highlights the important components of the panel.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Installation%20panel%20highlight%20labels%202.png)
 
-The highlighted components in the figure above is for the following:
+The highlighted elements in the figure above is for the following:
 
 * _Profile Menu_ - A dropdown menu to quickly swap profiles.
-* _Mod Options_ - Modlist options that includes installing a mod, dividing the modlist by categories, and enabling or disabling mods in the list.
-* _File Explorer_ - Opens your file explorer for the Instance or managed game.
-* _Restore/Create Backup_ - Saves the profile's modlist to be loaded at a future date. Loading a saved modlist will overwrite your modlist. The information saved includes:
+* _Mod Options_ - Modlist options that includes installing a mod, dividing the modlist by categories, and enabling or disabling mods.
+* _File Explorer_ - Opens the file explorer for the Instance or managed game.
+* _Restore/Create Backup_ - Save the profile's modlist to be loaded at a future date. Loading a saved modlist will overwrite your active modlist. The information saved includes:
    *  All installed mods.
    *  The order of the installed mods.
    *  The status (enabled or disabled) of the mods at the time of saving.
-   *  Flags and notes that were active at the time of saving. 
+   *  The flags and notes that were active at the time of saving. 
 * _Active Mod Count_ - Displays the number of enabled mods.
-* _ModList_ - Lists all installed mods. Mods listed here will display their name, conflicts, flags, category, version number, and priority number. The checkboxes to the left of the mod's name will indicate the mods status via checkmark for active or blank for disabled. More information on the list will be explained in the next section.
+* _ModList_ - Lists all installed mods. Mods listed here will display their name, conflicts, flags, category, version number, and priority number. The checkboxes to the left of the mod's name will indicate the mods status via checkmark for active or blank for disabled. More information on the list will be explained in the [Sorting the Modlist]() section.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Modlist%20mods.png)
   
