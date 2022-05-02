@@ -1,10 +1,5 @@
 # Skyrim Special Edition: Introduction to Modding
 
-# Tables of Content
-
-
-
-
 # Preface
 This document will instruct you on setting up and modding the Steam version of Skyrim Special Edition (SSE). This document is intended for beginners, so it is vital that you read and follow all instructions carefully.
 
@@ -15,7 +10,7 @@ By the end of this document, you should be able to:
 * Download and Install mods using the aforementioned program and website.
 * Build a stable Skyrim experience with essential mods.
 
-## Requirements/Assumptions
+## Requirements and Assumptions
 While previous modding experience is not necessary for this document, you are expected to be knowledgeable on basic computer functions. This document will require:
 * The Steam edition of SSE
 * Windows 7 or higher (64-bit)
