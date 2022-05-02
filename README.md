@@ -22,7 +22,7 @@ While previous modding experience is not necessary for this document, you are ex
 
 
 # Preparations 
-This section will instruct you on preparing your copy of SSE for modding.
+This section will explain the preparations needed to mod SSE.
 
 Before adding any mods to your game, you will need to do the following:
 1. Install SSE outside of a Windows protected folder (Program Files, Program Files (x86), etc.).
