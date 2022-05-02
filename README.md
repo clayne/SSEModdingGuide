@@ -31,7 +31,7 @@ Before adding any mods to your game, you will need to do the following:
 
 
 ## Setting up Skyrim Special Edition
-You will need to ensure that your copy of SSE is outside of a Windows protected folder. Windows is very protective when you try to edit anything inside of it.
+Windows is very protective when you try to edit anything inside of it, blocking any changes that can be made to the files. You will need to ensure that your copy of SSE is outside of any Windows protected folder.
 
 ### Moving your Steam Directory
 By default, your Steam directory will be placed in:
