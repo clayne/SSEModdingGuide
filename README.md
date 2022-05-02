@@ -34,9 +34,7 @@ Before adding any mods to your game, you will need to do the following:
 Windows is very protective when you try to edit anything inside of it, blocking any changes that can be made to the files. You will need to ensure that your copy of SSE is outside of any Windows protected folder.
 
 ### Moving your Steam Directory
-By default, your Steam directory will be placed in:
-
-**C:\Program Files(x86)\Steam\SteamApps\Common**
+By default, your Steam directory will be placed in: **C:\Program Files(x86)\Steam\SteamApps\Common**
 
 To move your Steam directory:
 
@@ -45,13 +43,13 @@ To move your Steam directory:
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Steam%20home%20Setting%20Highlight.png)
 
 2. Click **Downloads** > **Steam Library Folder**.
-3. Click **Add Library Folder**. You will open a Steam file explorer 
+3. Click **Add Library Folder**. You will open a Steam file explorer. 
 4. Navigate the explorer to a location not protected by Windows, preferably in the root directory of your hard drive.
 5. Click **New Folder**.
 6. Enter the name of your new folder, then click **OK**.
 7. Click the **folder you created**, then click **Select**.
 
-Your Steam games are now placed in a new location.
+Your Steam directory is now placed in a new location.
 
 ### Installing the Game
 ```
@@ -64,7 +62,7 @@ NOTE: If you have already installed and played Skyrim, skip this section.
 
 ## Creating a Nexus Mods Account
 
-Most of your mods and tools will come from Nexus Mods (Nexus), a website that hosts thousands of community made mods. You cannot download anything from the website without a Nexus account.
+Most of your mods and tools will come from Nexus Mods (Nexus), a website that hosts thousands of community-made mods. You cannot download anything from the website without a Nexus account.
 
 To create a Nexus account:
 1. Navigate to the [Nexus Mods](https://www.nexusmods.com/) website.
@@ -106,11 +104,11 @@ By the end of this section, you should know:
 
 ## Setting Up MO2
 
-This section will explain the virtual directory, and how to set up your game for MO2.
+This section will explain the virtual directory and how to set up your game for MO2.
 
 ### Instances, a Virtual Game Directory
 
-A **Instance** will need to be created every time you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read its own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for the Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. 
+An _Instance_ will need to be created every time you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read its own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for having an Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. The image below is an illustration of MO2 redirecting the Skyrim.exe to the MO2 folder.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Virtual.png)
 
@@ -118,10 +116,10 @@ A **Instance** will need to be created every time you add a game to MO2. Instanc
 
 The following procedures will guide you on setting up your game for MO2:
 
-1. Open MO2
-2. You will be asked to create an Instance. Click **Create a Global Instance**
+1. Open MO2.
+2. You will be asked to create an Instance. Click **Create a Global Instance**.
 3. Supported MO2 games will be displayed in a list. Select **Skyrim Special Edition**, then click **Next**. 
-   If SSE does not appear like in the image below, click **Browse** and navigate to your game's executable (.exe) file.
+   If SSE does not appear like in the image below, click **Browse** and navigate to the SSE directory for the **Skyrim Special Edition.exe** file.
    
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%203%20Game%20manage%20HIGHLIGHT.png)
 
@@ -139,7 +137,7 @@ TIP: For ease of access, it is recommended to create an Instance folder in the s
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/mo2%20nexus%20confirmation.png)
 
 8. After you receive a confirmation that Nexus and MO2 are linked, click **Next**.  
-9. A window with all the information you entered (Game choice, Instance location, Nexus account, etc.) will be displayed. After confirming that all the provided information is correct, click **Finish**.
+9. A window with all the information you entered (Game choice, Instance location, Nexus account, etc.) will be displayed. After confirming that the provided information is correct, click **Finish**.
 
 
 ## The Interface
@@ -171,7 +169,7 @@ This section will explain each button and how to use them.
 ### Instance Manager
 ![alt next](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Instance%20Icon.png)
 
-The Instance Manager for creating and managing Instances in MO2. This feature is required whenever you want to add or switch games in MO2. 
+The _Instance Manager_ for creating and managing Instances in MO2. This feature is required whenever you want to add or switch games in MO2. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Instance%20ui.png)
 
@@ -196,7 +194,7 @@ The options to manage your Instances include:
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Install%20mod%20ICON.png)
 
-The Install From Archive button will open your file explorer to select and install downloaded mods. Only mods compressed into a ZIP file can be installed.
+The _Install From Archive_ button will open your file explorer to select and install downloaded mods. Only mods compressed into a ZIP file can be installed.
 
 ```
 TIP: Alternatively, you can click and drag ZIP files into the MO2 window to install.
@@ -207,7 +205,7 @@ TIP: Alternatively, you can click and drag ZIP files into the MO2 window to inst
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/toolbar%20Nexus%20Mod%20Link%20ICON.png)
 
-The Browse Mod Page button will direct your web browser to the managed game's section on Nexus Mods (i.e., managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
+The Browse Mod Page button will direct your web browser to the managed game's section on Nexus Mods (e.g., managing a Skyrim Instance will make the button direct the web browser to the Skyrim section on Nexus Mods). 
 
 ### Refresh
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20refresh%20ICON.png)
@@ -260,7 +258,7 @@ The options to manage your profile include:
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20ICOn.png)
 
-The Configuration settings has 8 tabs that controls the functionality of MO2 (i.e., languages, mod color coordination, folder directory, etc.). Use this window to tailor MO2 to your liking. 
+The Configuration settings has 8 tabs that controls the functionality of MO2 (e.g., languages, mod color coordination, folder directory, etc.). Use this window to tailor MO2 to your liking. 
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20config%20window.png)
 
@@ -281,7 +279,7 @@ The table below represents what each tab controls.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20Execute%20ICON.png)
 
-The Executables is for managing programs added to MO2. When adding a program to MO2, the added program will automatically associat itself with the managed game (i.e. modding tools that edit files will automatically direct itself to the game's directory). The addition of executables is meant to make MO2 a central hub for modding your games. These additional programs can include:
+The Executables is for managing programs added to MO2. When adding a program to MO2, the added program will automatically associat itself with the managed game (e.g., modding tools that edit files will automatically direct itself to the game's directory). The addition of executables is meant to make MO2 a central hub for modding your games. These additional programs can include:
 
 * Games 
 * Tools (Editing programs such as Skyrim Special Edition Edit (SSEEdit)
@@ -297,7 +295,7 @@ The options to manage your programs is located above the list. These functions a
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20Add.png) _Add_ - Opens the file explorer to add a supported executable to MO2.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20Remove.png) _Remove_ - Remove the selected executable from MO2.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Execute%20move%20ex.png) _Rearrange List_ - Move the selected executable up or down the list.
-* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/execute%20add%20default%20plugin.png) _Add Default Plugins_ - Adds executables based on the Instance's game (i.e. adds the Skyrim executable file if the Instance is based on Skyrim). By default, the Instance will have the managed game's executables setup.
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/execute%20add%20default%20plugin.png) _Add Default Plugins_ - Adds executables based on the Instance's game (e.g., adds the Skyrim executable file if the Instance is based on Skyrim). By default, the Instance will have the managed game's executables setup.
 
 To access your executables, see [Executable Menu](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#executable-menu).
 
@@ -427,12 +425,12 @@ The flags that can be displayed include:
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20unendorsed.png) _Unendorsed_ - Mod has not been endorsed by the user. After you install a mod, this icon will appear after an undetermined amount of time.
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20personal%20note.png) _Note Added_ - Indicates that a note has been added to the mod. 
 * ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Flag%20needs%20update.png) _Outdated_ - The mod is outdated and has an update available for download.
-* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/flag%20wrong.png) _Wrong Game/Version_ - Mod is for a different game or game version (i.e. Legendary Edition Skyrim mod vs Special Edition Skyrim mod). 
+* ![alt text](https://github.com/CDimang/SSE-Images/blob/main/flag%20wrong.png) _Wrong Game/Version_ - Mod is for a different game or game version (e.g., Legendary Edition Skyrim mod vs Special Edition Skyrim mod). 
 
 
 #### Assigning Custom Categories to Mods
 
-Mods can be assigned to any category (i.e., gameplay, immersion, bugfix, etc.) available in MO2. 
+Mods can be assigned to any category (e.g., gameplay, immersion, bugfix, etc.) available in MO2. 
 
 To assign a category to a mod:
 
