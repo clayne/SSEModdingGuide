@@ -620,7 +620,7 @@ You can install mods from this tab by double-clicking a file.
 
 # Introduction to Nexus Mods
 
-Nexus Mods (Nexus) is a website where users can upload and download mods. The website is free to use and is easily accessible for anyone that wants to mod their games. The image below is homepage which displays the most popular games on the website.
+Nexus Mods (Nexus) is a website where users can upload and download mods. The website is free to use and is easily accessible for anyone who wants to mod their games. The image below is homepage which displays the most popular games on the website.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Homepage.png)
 
@@ -638,7 +638,7 @@ Each game has their own section which helps keep the website organized. From the
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Skyrim%20Section.png)
 
-While you are in the game's section of the website, links and searches done will only display content related to the section (if you are in the Skyrim section, only Skyrim content will appear if you use the search bar).
+While you are in the game's section of the website, links and searches done will only display content related to the section (e.g., if you are in the Skyrim section, only Skyrim content will appear if you use the search bar).
 
 ### Searching for Mods
 
@@ -674,7 +674,7 @@ If you want to search for multiple mod categories:
 
 ## Block Content
 
-Given wide possibilities of content that can be included in a mod, some users may be uncomfortable with certain content (violence, sexual content, etc.) or they may dislike a certain category of mods (gameplay, immersion, etc.). You may choose to block certain categories from appearing when you browse the website.
+Given wide possibilities of content that can be created in a mod, some users may be uncomfortable with certain content (violence, sexual content, etc.) or they may dislike a certain category of mods (gameplay, immersion, etc.). You may can block certain categories from appearing when you browse the website.
 
 To block content on the website:
 
@@ -693,10 +693,10 @@ The mod page of any mods that interest you will provide information such as feat
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Mod%20Page%201.png)
 
-The image above highlights general information that can serve as a preview. The information provides the following:
+The image above highlights general information that serves as a preview when you open the page. The information provides the following:
 
-* _Statistics_ - Number of unique downloads, endorsements, views, and dates for upload and last update.
-* _Images and Videos_ - Media content to demonstrate the mod.
+* _Statistics_ - Number of unique downloads, endorsements, views, and date for uploads.
+* _Images and Videos_ - Media to demonstrate the mod.
 * _Tags_ - Tags to categorize the mod when browsing the website.
 * _Information Tabs_ - Information for the mod based on the associated tab.
 * _Media Buttons_ - Buttons for:
@@ -723,11 +723,11 @@ The table below represents the 9 tabs available for a mod page.
 
 | Page Tab  | Description |
 | ------------- | ------------- |
-| **Description**  | Describes the mod. Will generally present information such as features, requirements, procedures for installation, conflicts with other mods, and questions commonly asked.   |
+| **Description**  | Describes the mod. Will generally present information such as features, requirements, procedures for installation, conflicts with other mods, and solutions to common problems.   |
 | **Images** | Screenshots to show the mod will look in-game. Users can upload their own images here, but the author can choose to delete your images if they conclude that it has no relevance to the mod.  |
 | **Files**  | Files that can be downloaded through MO2 or manually through your PC. For more information, refer to [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#downloading-and-installing-mods).  |
 | **Videos**  | Videos that demonstrate the mod in-game. Users may also upload their own videos here. |
-| **Articles**  | Additional documentation related to the mod. Documents here will vary but typically include compatibility with other mods, extra features, and guides.  |
+| **Articles**  | Additional documentation related to the mod. Documents here will vary.  |
 | **Posts**  | A discussion board where the author and users can have a discussion related to the mod.   |
 | **Logs**  | Tracks all changes that were made to the mod page. |
 | **Stats**  | A graph that tracks the dates for downloads, endorsements, and views. |
@@ -736,9 +736,9 @@ The table below represents the 9 tabs available for a mod page.
 
 # Downloading and Installing Mods
 
-A majority of your mods will come from Nexus. Most mods will typically follow the same installation procedures but there are a few exceptions that require additional setup. Be sure to **always read the mod's description page** before installing any mods; the mod page may include information such as instructions, documentations for compatability with other mods, or frequently asked questions (FAQs). 
+Most of your mods will come from Nexus. Mods will typically follow the same installation procedures but there are a few exceptions that require additional setup. Be sure to **always read the mod's description page** before installing any mods; the mod page may include information such as instructions, documentations for compatibility with other mods, or frequently asked questions (FAQs). 
 
-This section will demonstrate how to use MO2 and Nexus to download and install mods. The information below will explain the general procedures for installing a mod. Given the nature of some mods, the procedures below may very.
+This section will demonstrate how to use MO2 and Nexus to download and install mods. The information below will explain the general procedures for installing a mod. Given the nature of some mods, the procedures below may vary.
 
 1. On the mod page, click the **Files** tab.
 
@@ -754,6 +754,7 @@ This section will demonstrate how to use MO2 and Nexus to download and install m
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%2023.png)
 
 5. In the **Plugin Panel**, click the **Downloads** tab.
+   * If a mod is not downloaded from Nexus, you can drag the file here and proceed with step 6.
 6. Double-click the mod to install it. Click **OK** when prompted.
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%203.png)
@@ -773,7 +774,7 @@ There are four essential mods designed to resolve the numerous issues with Skyri
 * _Skyrim Script Extenter (SKSE)_ - An addon to Skyrim's game engine that expands the limitations of scripts that can be used in-game
 * _Unofficial Skyrim Special Edition Patch (USSEP)_ - A community made patch that aims to fix every bug that has not been officially resolved by Bethesda
 * _Skyrim Special Edition Engine Fixes_ - A _SKSE_ plugin that resolves the numerous issues that are included with Skyrim's Creation Engine.
-* _SkyUI_ - While a UI mod is not technically "essential", it fixes the cumbersome interface of Skyrim by providing a more user-friendly menu. A majority of mods rely on _SkyUI_ to implement their features.
+* _SkyUI_ - While a UI mod is not technically "essential", it fixes the cumbersome interface of Skyrim by providing a more user-friendly menu. Most of mods rely on _SkyUI_ to implement the UI elements of their mod.
 
 This section will explain the importance of each mod and how to install them.
 
@@ -781,7 +782,7 @@ This section will explain the importance of each mod and how to install them.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%20Logo.jpg)
 
-_SKSE_ is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynanmic features. This is why _SKSE_ is needed in order to create scripts that can introduce unique features and mechanics into the game.  
+_SKSE_ is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynamic features. Therefore, _SKSE_ is needed in order to create scripts that can introduce unique features and mechanics into the game.  
 
 Some examples of scripted mods include:
 
@@ -789,7 +790,7 @@ Some examples of scripted mods include:
 * When swinging your weapon, a fireball could be shot from the weapon.
 * When you ride a horse, your character can now fly.
 
-Scripts are included in the plugins (LINK) you install. While they can be a problem if mismanaged, they are essential for creating mods for Skyrim. SKSE is required for every mod that includes a script.
+Scripts are always included with any plugin(LINK) you install. While they can be a problem if mismanaged, they are essential for creating mods for Skyrim. SKSE is required for every mod that includes a script.
 
 ### Installing SKSE
 
