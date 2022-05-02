@@ -745,25 +745,25 @@ This section will demonstrate how to use MO2 and Nexus to download and install m
 
 1. On the mod page, click the **Files** tab.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%201.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%201.png)
 
 2. In the **Main Files** section, click **Mod Manager Download**.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%202.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%202.png)
 
 3. Click **Slow Download**. The website will ask for permission to access MO2.
 4. Click **Open NXM Link Proxy**. MO2 will open and download the mod.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%2023.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%2023.png)
 
 5. In the **Plugin Panel**, click the **Downloads** tab.
 6. Double-click the mod to install it. Click **OK** when prompted.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%203.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%203.png)
 
 7. In the **Installation Panel**, click the mod's **checkbox** to enable it.
 
-![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%204.png)
+   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Download%20Mod%204.png)
 
 8. If the mod contains a plugin, click **Sort** in the **Plugin Panel** to sort it with your other plugins.
 
@@ -776,7 +776,7 @@ There are four essential mods designed to resolve the numerous issues with Skyri
 * _Skyrim Script Extenter (SKSE)_ - An addon to Skyrim's game engine that expands the limitations of scripts that can be used in-game
 * _Unofficial Skyrim Special Edition Patch (USSEP)_ - A community made patch that aims to fix every bug that has not been officially resolved by Bethesda
 * _Skyrim Special Edition Engine Fixes_ - A SKSE plugin that resolves the numerous issues that are included with Skyrim's Creation Engine.
-* _SKY UI_ - While a UI mod is not technically "essential", it fixes the cumbersome interface of Skyrim by providing a more user-friendly menu. A majority of mods rely on _SKY UI_ to implement their features.
+* _SkyUI_ - While a UI mod is not technically "essential", it fixes the cumbersome interface of Skyrim by providing a more user-friendly menu. A majority of mods rely on _SkyUI_ to implement their features.
 
 This section will explain the importance of each mod and how to install them.
 
@@ -823,7 +823,18 @@ SKSE does not use MO2 and must be manually placed into your SSE directory.
 11. On the game's title screen, press the (~) key. You will be opening the game's console.
 12. Type **SKSE version** into the console. If you get a message similar to the image below, SKSE is installed. If not, make sure all of the files have been properly extracted to the SSE directory. 
 
-   ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%205.png)
+    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%205.png)
 
+## Unofficial Skyrim Special Edition Patch (USSEP)
+
+![alt text](https://github.com/CDimang/SSE-Images/blob/main/Unofficial%20Patch%20banner.png)
+
+### Installing USSEP
+
+## Skyrim Special Edition Engine Fixes (SSE Engine Fixes)
+### Installing SSE Engine Fixes
+
+## SkyUI
+### Installing SkyUI
 
 # Closing Thoughts 
