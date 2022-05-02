@@ -504,8 +504,7 @@ Based on the image and the information above, the load order performs the follow
 
 The information and illustration above demonstrate how the interaction between multiple mods can create interesting effects, but it can also create redundancies in your modlist.
 
-When installing multiple mods that interact with similar in-game elements, be sure to always read the mod's description page on Nexus to reduce the number of redundancies in your load order. This is especially important when ordering plugins (LINK) that are installed with the mods. 
-
+When installing multiple mods that interact with similar in-game elements, be sure to always read the mod's description page on Nexus to reduce the number of redundancies in your load order. This is especially important when ordering [plugins](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#plugin-panel) that are installed with the mods. 
 
 ### Overwrite Folder
 
