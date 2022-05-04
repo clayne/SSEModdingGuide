@@ -16,7 +16,7 @@ While previous modding experience is not necessary for this document, you are ex
 * Windows 7 or higher (64-bit)
 * A text editor (Notepad or Notepad++)
 * [Microsoft VC++ 2015-2019](https://docs.microsoft.com/en-GB/cpp/windows/latest-supported-vc-redist?view=msvc-170) (x86 and x64)
-* The drivers for your GPU
+* The latest drivers for your GPU
 * A file archiver (7-Zip, WinRAR, etc.) 
 
 
