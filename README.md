@@ -51,9 +51,9 @@ To move your Steam directory:
 Your Steam directory is now placed in a new location.
 
 ### Installing the Game
-```
-NOTE: If you have already installed and played Skyrim, skip this section.
-```
+
+> NOTE: If you have already installed and played Skyrim, skip this section.
+
 1. Open Steam and go to your **Library**
 2. Download and install **Skyrim Special Edition** 
 3. Run SSE 
@@ -433,9 +433,9 @@ The table below represents the available columns to sort by.
 
 You can also rearrange your modlist by clicking and dragging mods through the list. This method for organizing mods should generally be done when you want to place a mod in a specific location.
 
-```
-NOTE: You cannot click and drag mods unless your modlist is sorted by Priority.
-```
+
+> NOTE: You cannot click and drag mods unless your modlist is sorted by Priority.
+
 #### Flags
 
 _Flags_ are notifications that appear when the associated mod has met a specific condition. The flags are intended to notify you if mods are interacting with one another or meets a criterion that should be addressed. The figure below is an example of mods being marked with flags. 
@@ -506,9 +506,9 @@ Pay close attention to which mods are overwriting one another as there may be un
 * Removing the affected mods
 * Downloading a patch to resolve the conflict.
 
-```
-NOTE: Overwritten mods are not always invalidated and is sometimes intended by the mod author to interact with other mods.
-```
+
+> NOTE: Overwritten mods are not always invalidated and is sometimes intended by the mod author to interact with other mods.
+
 
 ### Mod Priority/Load Order
 
@@ -631,9 +631,8 @@ To use LOOT, click the **Sort** button at the top of the window; the LOOT window
 | *Loot displaying potential conflicts after sorting* |
 
 
-```
-NOTE: It is recommended that you ALWAYS use LOOT whenever you add a new plugin.
-```
+> NOTE: It is recommended to use LOOT whenever you add a new plugin.
+
 
 #### Good Plugin Practices
 
