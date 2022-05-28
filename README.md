@@ -9,7 +9,7 @@
 		* [Installing the Game](https://github.com/CDimang/SSEModdingGuide#installing-the-game)
 	* [Creating a Nexus Mods Account](https://github.com/CDimang/SSEModdingGuide#creating-a-nexus-mods-account)
 	* [Installing Mod Organizer 2](https://github.com/CDimang/SSEModdingGuide#installing-mod-organizer-2)
-* [Overview of Mod Organizer 2 (MO2)](https://github.com/CDimang/SSEModdingGuide#overview-of-mod-organizer-2-mo2)
+* [Overview of Mod Organizer 2](https://github.com/CDimang/SSEModdingGuide#overview-of-mod-organizer-2-mo2)
 	* [Setting Up MO2](https://github.com/CDimang/SSEModdingGuide#setting-up-mo2)
 		* [Instances, a Virtual Game Directory](https://github.com/CDimang/SSEModdingGuide#instances-a-virtual-game-directory) 
 		* [Adding Skyrim to MO2](https://github.com/CDimang/SSEModdingGuide#adding-your-game-to-mo2)
@@ -38,7 +38,7 @@
 	* [Executable Menu](https://github.com/CDimang/SSEModdingGuide#executable-menu)
 	* [Plugin Panel](https://github.com/CDimang/SSEModdingGuide#plugin-panel)
 		* [Plugins Tab](https://github.com/CDimang/SSEModdingGuide#plugins-tab)
-			* [Using the Load Order Optimization Tool (LOOT)](https://github.com/CDimang/SSEModdingGuide#using-the-load-order-optimization-tool-loot)
+			* [Using the Load Order Optimization Tool](https://github.com/CDimang/SSEModdingGuide#using-the-load-order-optimization-tool-loot)
 			* [Good Plugin Practices](https://github.com/CDimang/SSEModdingGuide#good-plugin-practices)
 		* [Downloads Tab](https://github.com/CDimang/SSEModdingGuide#downloads-tab)
 * [Introduction to Nexus Mods](https://github.com/CDimang/SSEModdingGuide#introduction-to-nexus-mods)
@@ -51,11 +51,11 @@
 		* [Mod Page Information Tabs](https://github.com/CDimang/SSEModdingGuide#mod-page-information-tabs)
 * [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide#downloading-and-installing-mods)
 * [Essential Mods for Skyrim](https://github.com/CDimang/SSEModdingGuide#essential-mods-for-skyrim)
-	* [Skyrim Script Extender (SKSE)](https://github.com/CDimang/SSEModdingGuide#skyrim-script-extender-skse)
+	* [Skyrim Script Extender](https://github.com/CDimang/SSEModdingGuide#skyrim-script-extender-skse)
 		* [Installing SKSE](https://github.com/CDimang/SSEModdingGuide#installing-skse)
-	* [Unofficial Skyrim Special Edition Patch (USSEP)](https://github.com/CDimang/SSEModdingGuide#unofficial-skyrim-special-edition-patch-ussep)
+	* [Unofficial Skyrim Special Edition Patch](https://github.com/CDimang/SSEModdingGuide#unofficial-skyrim-special-edition-patch-ussep)
 		* [Installing USSEP](https://github.com/CDimang/SSEModdingGuide#installing-ussep)
-	* [Skyrim Special Edition Engine Fixes (SSE Engine Fixes)](https://github.com/CDimang/SSEModdingGuide#skyrim-special-edition-engine-fixes-sse-engine-fixes)
+	* [Skyrim Special Edition Engine Fixes](https://github.com/CDimang/SSEModdingGuide#skyrim-special-edition-engine-fixes-sse-engine-fixes)
 		* [Installing SSE Engine Fixes](https://github.com/CDimang/SSEModdingGuide#installing-sse-engine-fixes)
 	* [SkyUI](https://github.com/CDimang/SSEModdingGuide#skyui)
 		* [Installing SkyUI](https://github.com/CDimang/SSEModdingGuide#installing-skyui)
@@ -127,7 +127,7 @@ Most of your mods and tools will come from Nexus Mods (Nexus), a website that ho
 
 To create a Nexus account:
 1. Navigate to the [Nexus Mods](https://www.nexusmods.com/) website.
-2. Click **Register** in the top right corner of the website.
+2. In the top right corner of the website, Click **Register** 
 3. Follow the instructions provided by the website.
 
 ## Installing Mod Organizer 2
@@ -136,12 +136,12 @@ Mod Organizer 2 (MO2) is a program that will download and manage mod files for y
 
 1. Navigate to MO2's [page on Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files).
 2. Click the **Files** tab.
-3. Look for **Mod Organizer 2**, then click **Manual Download**. 
+3. Look for the **Mod Organizer 2** section, then click **Manual Download**. 
 4. Click **Slow Download**.
-5. Navigate to the download location and double click the installer.
+5. Navigate to the download location and execute the installer.
 6. Follow the procedures provided by the installer.  
 
-# Overview of Mod Organizer 2 (MO2)
+# Overview of Mod Organizer 2
 
 MO2 is a program used to organize, install, and manage mods for popular games such as Fallout or The Elder Scrolls.
 
@@ -674,7 +674,7 @@ The _Plugins Tab_ will list all installed plugins (ESP, ESL, or ESM files). Not 
 At first glance, the image above shares similar features to the Installation Panel such as the checkboxes, active plugin count, and ability to drag plugins through the list. Due to the nature of plugins, the load order in this tab will be independent from the Installation Panel.
 
 
-#### Using the Load Order Optimization Tool (LOOT)
+#### Using the Load Order Optimization Tool
 
 The Plugins Tab uses an addon known as the _Loot Order Optimization Tool_ (LOOT), a plugin that automatically sorts your plugin list. LOOT uses a master list developed by numerous mod authors to determine the best way to order mods based on their category, scope, and implementation. 
 
@@ -907,7 +907,7 @@ This section will explain the importance of each mod and how to install them.
 |:--:| 
 | *SKSE Logo* |
 
-_SKSE_ is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynamic features. Therefore, _SKSE_ is needed to create scripts that can introduce unique features and mechanics into the game.  
+The _Skyrim Script Extender_ (SKSE) is an addon to Skyrim's scripting language that allows mod authors to develop features that are beyond the scope of what the game can handle. Skyrim's engine is very limiting and has the bare minimum functions to create dynamic features. Therefore, _SKSE_ is needed to create scripts that can introduce unique features and mechanics into the game.  
 
 Some examples of scripted mods include:
 
@@ -948,14 +948,14 @@ _SKSE_ is not from Nexus and must be manually placed into your SSE directory.
 
     ![alt text](https://github.com/CDimang/SSE-Images/blob/main/SKSE%205.png)
 
-## Unofficial Skyrim Special Edition Patch (USSEP)
+## Unofficial Skyrim Special Edition Patch
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Unofficial%20Patch%20banner.png)
 |:--:| 
 | *USSEP Banner* |
 
 
-_USSEP_ is a mod that is intended to eventually fix every bug in SSE. The amount of changes is large, so please visit the [Unofficial Patch Project Team website](https://www.afkmods.com/Unofficial%20Skyrim%20Special%20Edition%20Patch%20Version%20History.html) if you want to review all the fixes made in the patch.
+The _Unofficial Skyrim Special Edition Patch_ (USSEP) is a mod that is intended to eventually fix every bug in SSE. The amount of changes is large, so please visit the [Unofficial Patch Project Team website](https://www.afkmods.com/Unofficial%20Skyrim%20Special%20Edition%20Patch%20Version%20History.html) if you want to review all the fixes made in the patch.
 
 The patch is designed to work with every mod. Given the popularity of this patch, many authors design their mod with this patch mind, making it a requirement for a majority of mods. 
 
@@ -963,9 +963,9 @@ The patch is designed to work with every mod. Given the popularity of this patch
 
 USSEP can be installed like any other mod from their [Nexus page](https://www.nexusmods.com/skyrimspecialedition/mods/266). Refer to [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#downloading-and-installing-mods) for the procedures.
 
-## Skyrim Special Edition Engine Fixes (SSE Engine Fixes)
+## Skyrim Special Edition Engine Fixes
 
-_SSE Engine Fixes_ is an _SKSE_ addon that focuses on resolving the many issues that come from Skyrim's game engine such as preventing your save files from being corrupted or increasing file limit of the game. 
+The _Skyrim Special Edition Engine Fixes_ (SSE Engine Fixes) is an _SKSE_ addon that focuses on resolving the many issues that come from Skyrim's game engine such as preventing your save files from being corrupted or increasing file limit of the game. 
 
 ### Installing SSE Engine Fixes
 
