@@ -308,8 +308,8 @@ The following information will be unique to each profile:
    *  Mods that are enabled in one profile will be disabled in another.
    *  Mods in new profiles are disabled by default.
 * Priority/Load order for installed mods and plugins.
-* Configuration files (If checked in profile settings).
-* Save files for managed game (If checked in profile settings).
+* Configuration files (if checked in profile settings).
+* Save files for managed game (if checked in profile settings).
 
 The image below is the _Profile Manager_ which allows you to create, delete, and edit your profiles. Select any of the profiles in the list, then clicking **Select** will swap MO2 to the selected profile, mirroring any configurations set in the selected profile. 
 
