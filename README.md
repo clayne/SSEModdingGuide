@@ -1,5 +1,67 @@
 # Skyrim Special Edition: Introduction to Modding
 
+## Table of Content 
+* [Preface](https://github.com/CDimang/SSEModdingGuide#preface)
+	* [Requirements and Assumptions](https://github.com/CDimang/SSEModdingGuide#requirements-and-assumptions)
+* [Preparations](https://github.com/CDimang/SSEModdingGuide#preparations)
+	* [Setting up Skyrim Special Edition](https://github.com/CDimang/SSEModdingGuide#setting-up-skyrim-special-edition)
+		* [Moving your Steam Directory](https://github.com/CDimang/SSEModdingGuide#moving-your-steam-directory)
+		* [Installing the Game](https://github.com/CDimang/SSEModdingGuide#installing-the-game)
+	* [Creating a Nexus Mods Account](https://github.com/CDimang/SSEModdingGuide#creating-a-nexus-mods-account)
+	* [Installing Mod Organizer 2](https://github.com/CDimang/SSEModdingGuide#installing-mod-organizer-2)
+* [Overview of Mod Organizer 2 (MO2)](https://github.com/CDimang/SSEModdingGuide#overview-of-mod-organizer-2-mo2)
+	* [Setting Up MO2](https://github.com/CDimang/SSEModdingGuide#setting-up-mo2)
+		* [Instances, a Virtual Game Directory](https://github.com/CDimang/SSEModdingGuide#instances-a-virtual-game-directory) 
+		* [Adding Skyrim to MO2](https://github.com/CDimang/SSEModdingGuide#adding-your-game-to-mo2)
+	* [The Interface](https://github.com/CDimang/SSEModdingGuide#the-interface)
+	* [Toolbar](https://github.com/CDimang/SSEModdingGuide#toolbar)
+		* [Instance Manager](https://github.com/CDimang/SSEModdingGuide#instance-manager)
+		* [Install From Archive](https://github.com/CDimang/SSEModdingGuide#install-from-archive)
+		* [Browse Mod Page](https://github.com/CDimang/SSEModdingGuide#browse-mod-page)
+		* [Refresh](https://github.com/CDimang/SSEModdingGuide#refresh)
+		* [Tools](https://github.com/CDimang/SSEModdingGuide#tools)
+		* [Profiles](https://github.com/CDimang/SSEModdingGuide#profiles)
+		* [Configuration](https://github.com/CDimang/SSEModdingGuide#configuration)
+		* [Executables](https://github.com/CDimang/SSEModdingGuide#executables)
+		* [Endorsement](https://github.com/CDimang/SSEModdingGuide#endorsement)
+		* [Notification](https://github.com/CDimang/SSEModdingGuide#notification)
+		* [Update Mod Organizer](https://github.com/CDimang/SSEModdingGuide#update-mod-organizer)
+		* [Help](https://github.com/CDimang/SSEModdingGuide#help)
+	* [Installation Panel](https://github.com/CDimang/SSEModdingGuide#installation-panel)
+		* [Interface Elements](https://github.com/CDimang/SSEModdingGuide#interface-elements)
+		* [Sorting the Modlist](https://github.com/CDimang/SSEModdingGuide#sorting-the-modlist)
+			* [Flags](https://github.com/CDimang/SSEModdingGuide#flags)
+			* [Assigning Custom Categories to Mods](https://github.com/CDimang/SSEModdingGuide#assigning-custom-categories-to-mods)
+		* [Modlist Color Highlights](https://github.com/CDimang/SSEModdingGuide#modlist-color-highlights)
+		* [Mod Priority/Load Order](https://github.com/CDimang/SSEModdingGuide#mod-priorityload-order)
+		* [Overwrite Folder](https://github.com/CDimang/SSEModdingGuide#overwrite-folder)
+	* [Executable Menu](https://github.com/CDimang/SSEModdingGuide#executable-menu)
+	* [Plugin Panel](https://github.com/CDimang/SSEModdingGuide#plugin-panel)
+		* [Plugins Tab](https://github.com/CDimang/SSEModdingGuide#plugins-tab)
+			* [Using the Load Order Optimization Tool (LOOT)](https://github.com/CDimang/SSEModdingGuide#using-the-load-order-optimization-tool-loot)
+			* [Good Plugin Practices](https://github.com/CDimang/SSEModdingGuide#good-plugin-practices)
+		* [Downloads Tab](https://github.com/CDimang/SSEModdingGuide#downloads-tab)
+* [Introduction to Nexus Mods](https://github.com/CDimang/SSEModdingGuide#introduction-to-nexus-mods)
+	* [Navigating Nexus Mods](https://github.com/CDimang/SSEModdingGuide#navigating-nexus-mods)
+		* [Searching the Modlist](https://github.com/CDimang/SSEModdingGuide#searching-the-modlist)
+			* [Find a Specific Mod](https://github.com/CDimang/SSEModdingGuide#find-a-specific-mod)
+			* [Find Mods Based on Categories](https://github.com/CDimang/SSEModdingGuide#find-mods-based-on-categories)
+	* [Blocking Content on Nexus](https://github.com/CDimang/SSEModdingGuide#block-content-on-nexus)
+	* [Understanding the Modpage](https://github.com/CDimang/SSEModdingGuide#understanding-the-mod-page) 
+		* [Mod Page Information Tabs](https://github.com/CDimang/SSEModdingGuide#mod-page-information-tabs)
+* [Downloading and Installing Mods](https://github.com/CDimang/SSEModdingGuide#downloading-and-installing-mods)
+* [Essential Mods for Skyrim](https://github.com/CDimang/SSEModdingGuide#essential-mods-for-skyrim)
+	* [Skyrim Script Extender (SKSE)](https://github.com/CDimang/SSEModdingGuide#skyrim-script-extender-skse)
+		* [Installing SKSE](https://github.com/CDimang/SSEModdingGuide#installing-skse)
+	* [Unofficial Skyrim Special Edition Patch (USSEP)](https://github.com/CDimang/SSEModdingGuide#unofficial-skyrim-special-edition-patch-ussep)
+		* [Installing USSEP](https://github.com/CDimang/SSEModdingGuide#installing-ussep)
+	* [Skyrim Special Edition Engine Fixes (SSE Engine Fixes)](https://github.com/CDimang/SSEModdingGuide#skyrim-special-edition-engine-fixes-sse-engine-fixes)
+		* [Installing SSE Engine Fixes](https://github.com/CDimang/SSEModdingGuide#installing-sse-engine-fixes)
+	* [SkyUI](https://github.com/CDimang/SSEModdingGuide#skyui)
+		* [Installing SkyUI](https://github.com/CDimang/SSEModdingGuide#installing-skyui)
+
+
+
 # Preface
 This document will instruct you on setting up and modding the Steam version of Skyrim Special Edition (SSE). This document is intended for beginners, so it is vital that you read and follow all instructions carefully.
 
@@ -728,7 +790,7 @@ If you want to search for multiple mod categories:
 4. Click **Apply Filter**
 
 
-## Block Content on Nexus
+## Blocking Content on Nexus
 
 Given wide possibilities of content that can be created in a mod, some users may be uncomfortable with certain content (violence, sexual content, etc.) or they may dislike a certain category of mods (gameplay, immersion, etc.). You may can block certain categories from appearing when you browse the website.
 
