@@ -696,13 +696,15 @@ Each game has their own section which helps keep the website organized. From the
 
 While you are in the game's section of the website, links and searches done will only display content related to the section (e.g., if you are in the Skyrim section, only Skyrim content will appear if you use the search bar).
 
-### Searching for Mods
+### Searching the Modlist
+
+The sections below will instruct you on how to find mods based on certain conditions. 
 
 #### Find a Specific Mod 
 
 Enter the name of the mod into the search bar at the top of the screen. Mod suggestions will appear on the screen as you enter text.
 
-#### Find Mods Based on Category: 
+#### Find Mods Based on Categories 
 
 If you are searching for a specific mod category:
 
@@ -726,7 +728,7 @@ If you want to search for multiple mod categories:
 4. Click **Apply Filter**
 
 
-## Block Content
+## Block Content on Nexus
 
 Given wide possibilities of content that can be created in a mod, some users may be uncomfortable with certain content (violence, sexual content, etc.) or they may dislike a certain category of mods (gameplay, immersion, etc.). You may can block certain categories from appearing when you browse the website.
 
@@ -762,7 +764,7 @@ The image above highlights general information that serves as a preview when you
    *  _Endorse_ - Give your approval to the mod. Endorsements will increase the promotion the mod gets on the website.
    *  _Vote_ - Gives the mod a vote for the Mod of the Month event. This option will be unavailable if the mod has won before.
 
-### Mod Page Tabs
+### Mod Page Information Tabs
 
 The tabs on the mod page will provide information on the mod. Clicking a tab will display it in the bottom half of the page. 
 
