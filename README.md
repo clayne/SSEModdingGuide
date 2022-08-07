@@ -664,7 +664,7 @@ Given the scope of this document, the sections below will only focus on the _Plu
 
 ### Plugins Tab
 
-The _Plugins Tab_ will list all installed plugins (ESP, ESL, or ESM files). Not every mod will use a plugin, so do not worry if the number of active plugins do not match the number of active mods. The image below is an example of the tab with over 200 plugins.
+The _Plugins Tab_ will list all installed plugins (ESP, ESL, or ESM files). Not every mod will use a plugin, so do not worry if the number of active plugins does not match the number of active mods. The image below is an example of the tab with over 200 plugins.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%20Plugin%20Panel.png)
 |:--:| 
@@ -706,7 +706,7 @@ Some good plugin practices to consider are as follow:
 
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/missing%20plugin.png)
    |:--:| 
-   | *Do not try to play the file after removing a plugin* |
+   | *Do not try to load a file with a missing plugin* |
   
   
 * It is generally okay to add plugins to an active playthrough unless stated otherwise by the mod author.
@@ -749,14 +749,14 @@ This section will focus on teaching you how to use the website. By the end of th
 
 Starting out, the website can feel confusing to navigate at times, so this section will help you get a general understanding of what to look for on the website. 
 
-Each game has their own section which helps keep the website organized. From the homepage you can select your favorite games to begin looking for mods. In the image below, the browser was directed to the Skyrim Special Edition section of the website.
+For the purpose of organization, each game is separated into their own individual sections on Nexus. From the homepage you can select your favorite games to begin looking for mods. In the image below, the browser was directed to the Skyrim Special Edition section of the website.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Nexus%20Skyrim%20Section.png)
 |:--:| 
 | *The current section you are browsing (Skyrim Special Edition)* |
 
 
-While you are in the game's section of the website, links and searches done will only display content related to the section (e.g., if you are in the Skyrim section, only Skyrim content will appear if you use the search bar).
+While inside the game's section, all navigation links and searches performed will be contained to that specific section only(e.g., if you are in the Skyrim section, only Skyrim content will appear if you use the search bar or navigational links).
 
 ### Searching the Modlist
 
@@ -764,7 +764,7 @@ The sections below will instruct you on how to find mods based on certain condit
 
 #### Find a Specific Mod 
 
-Enter the name of the mod into the search bar at the top of the screen. Mod suggestions will appear on the screen as you enter text.
+Enter the name of the mod into the search bar at the top of the screen. Based on the inputted text, mods will be displayed beneath the search bar.
 
 #### Find Mods Based on Categories 
 
