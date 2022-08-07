@@ -86,16 +86,19 @@ While previous modding experience is not necessary for this document, you are ex
 This section will explain the preparations needed to mod SSE.
 
 Before adding any mods to your game, you will need to do the following:
-1. Install SSE outside of a Windows protected folder (Program Files, Program Files (x86), etc.).
+1. Install SSE outside of a Windows protected folder (e.g. Program Files, Program Files (x86), etc.).
 2. Setup a Nexus Account.
 3. Download and install Mod Organizer 2.
 
 
 ## Setting up Skyrim Special Edition
-Windows is very protective when you try to edit anything inside of it, blocking any changes that can be made to the files. You will need to ensure that your copy of SSE is outside of any Windows protected folder.
+Windows will prevent some mods from making changes to the SSE folder if it is saved in a Windows protected location, so you will need to ensure that your copy of SSE is outside of any Windows protected folder.
 
 ### Moving your Steam Directory
-By default, your Steam directory will be placed in: **C:\Program Files(x86)\Steam\SteamApps\Common**
+
+> NOTE: If your Steam directory is not located in **Program Files(x86)**, skip the instructions below.
+
+By default, your Steam directory will be placed in: **C:\Program Files(x86)\Steam\SteamApps\Common**. You will need to move your Steam directory before modding Skyrim.
 
 To move your Steam directory:
 
@@ -110,16 +113,18 @@ To move your Steam directory:
 6. Enter the name of your new folder, then click **OK**.
 7. Click the **folder you created**, then click **Select**.
 
-Your Steam directory is now placed in a new location.
+Your Steam directory has been moved to a new location.
 
 ### Installing the Game
 
 > NOTE: If you have already installed and played Skyrim, skip this section.
 
+To install SSE:
+
 1. Open Steam and go to your **Library**
 2. Download and install **Skyrim Special Edition** 
-3. Run SSE 
-4. Exit the game once you reach the main menu. (This will generate a configuration(ini) file for SSE)
+3. Run SSE (This is needed to generate a configuration(ini) file for SSE).
+4. Exit the game once you reach the main menu. 
 
 ## Creating a Nexus Mods Account
 
@@ -133,6 +138,8 @@ To create a Nexus account:
 ## Installing Mod Organizer 2
 
 Mod Organizer 2 (MO2) is a program that will download and manage mod files for you. See [Introduction to Nexus Mods](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#introduction-to-nexus-mods) for more info.
+
+To install MO2:
 
 1. Navigate to MO2's [page on Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files).
 2. Click the **Files** tab.
@@ -149,13 +156,13 @@ Rather than adding mod files to the game's directory, MO2 manages mods by separa
 
 The features available in MO2 are:
 
-* Isolate mods from the game directory.
+* Isolate mod files from the game directory.
 * Enable or Disable mods with a click of a button.
 * Sort mods through numerous criteria.
 * Download content from Nexus through MO2.
-* Present notifications such as updates or warnings for mods.
+* Provide useful notifications such as updates or warnings for mods.
 * Swap mod configurations seamlessly.
-* Add additional tools or addons for a centralized modding program.
+* Add additional tools or addons to MO2 for a centralized modding program.
 
 By the end of this section, you should know:
 
@@ -169,20 +176,21 @@ This section will explain the virtual directory and how to set up your game for 
 
 ### Instances, a Virtual Game Directory
 
-An _Instance_ will need to be created every time you add a game to MO2. Instances are folders where mods and configurations for your games are stored. In normal circumstances, a game will read its own directory to load the content and mods installed. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. The reason for having an Instance is to keep the game's directory as clean as possible, allowing users to add or delete mods with ease. The image below is an illustration of MO2 redirecting the Skyrim.exe to the MO2 folder.
+An _Instance_ will need to be created every time you add a game to MO2. Instances are folders where mods and configurations for specified games are stored. In normal circumstances, a game will read its own directory to load the contents for the game. However, with MO2, the program will redirect the game towards the Instance folder, making the game think that it is reading its own directory. Because of the Instance folder, mod files will not clutter the game's directory and users can add, delete, or edit mods without messing up the original files for the game. The image below is an illustration of MO2 redirecting the Skyrim.exe to the MO2 folder.
 
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Virtual.png)
 |:--:| 
 | *MO2 executing Skyrim and redirecting the game to the MO2 directory* |
 
-### Adding your Game to MO2
+### Adding SSE to MO2
 
-The following procedures will guide you on setting up your game for MO2:
+To add SSE to MO2:
 
 1. Open MO2.
 2. You will be asked to create an Instance. Click **Create a Global Instance**.
 3. Supported MO2 games will be displayed in a list. Select **Skyrim Special Edition**, then click **Next**. 
-   If SSE does not appear like in the image below, click **Browse** and navigate to the SSE directory for the **Skyrim Special Edition.exe** file.
+
+   If SSE does not appear like in the image below, click **Browse** and navigate to the SSE directory to select the **Skyrim Special Edition.exe** file.
    
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/MO2%203%20Game%20manage%20HIGHLIGHT.png)
 
@@ -200,8 +208,9 @@ TIP: For ease of access, it is recommended to create an Instance folder in the s
    ![alt text](https://github.com/CDimang/SSE-Images/blob/main/mo2%20nexus%20confirmation.png)
 
 8. After you receive a confirmation that Nexus and MO2 are linked, click **Next**.  
-9. A window with all the information you entered (Game choice, Instance location, Nexus account, etc.) will be displayed. After confirming that the provided information is correct, click **Finish**.
+9. A review of all options you selected (game choice, Instance location, Nexus account, etc.) will be displayed. After confirming that the provided information is correct, click **Finish**.
 
+SSE has been added to MO2. 
 
 ## The Interface
 
@@ -252,7 +261,7 @@ The left panel lists all the Instances that you've made. Clicking an item in the
 
 The options to manage your Instances include:
 
-* _Create New Instance_ - Adds another game to manage (Refer to [Adding your Game to MO2](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#adding-your-game-to-mo2) for the procedures). This will be required every time you want to manage another game with MO2.
+* _Create New Instance_ - Adds another game to manage (refer to [Adding your Game to MO2](https://github.com/CDimang/SSEModdingGuide/blob/main/README.md#adding-your-game-to-mo2) for the procedures). This will be required every time you want to manage another game with MO2.
 * _Open INI_ - Opens the configuration file for the Instance. This option should be left alone.
 * _Delete Instance_ - Deletes the selected Instance. A window displaying all associated files will be shown before you can remove the Instance.
 * _Switch to this Instance_ - MO2 will restart and switch to the selected Instance.
@@ -277,7 +286,7 @@ The _Browse Mod Page_ button will direct your web browser to the managed game's 
 ### Refresh
 ![alt text](https://github.com/CDimang/SSE-Images/blob/main/Toolbar%20refresh%20ICON.png)
 
-The _Refresh_ button will reload MO2. Use this if any changes made to MO2 (Load order change, installed or removed mods, etc.) are not immediately reflected.
+The _Refresh_ button will reload MO2. Use this if any changes made to MO2 (load order change, installed or removed mods, etc.) are not immediately reflected.
 
 ### Tools
 
@@ -304,7 +313,7 @@ As of the making of this document, most tools are now managed by the [Executable
 Multiple mod and game configurations are managed by profiles. Much like how Instances manage multiple games, profiles will manage multiple configurations for a single game. The purpose of this feature is to allow users to playtest and experiment with numerous mod configurations. 
 
 The following information will be unique to each profile:
-* Installed mods and their status (Installed/Disabled).
+* Installed mods and their status (installed/disabled).
    *  Mods that are enabled in one profile will be disabled in another.
    *  Mods in new profiles are disabled by default.
 * Priority/Load order for installed mods and plugins.
@@ -355,7 +364,7 @@ The table below represents what each tab controls.
 The _Executables_ is for managing programs added to MO2. When adding a program to MO2, the added program will automatically direct itself to the folders of the managed game (e.g., modding tools that edit files will automatically edit files from the game's directory). The usage of Executables is meant to make MO2 be the center of modding, making it a central hub that contains all your tools and programs. These additional programs can include:
 
 * Games 
-* Tools (Editing programs such as Skyrim Special Edition Edit (SSEEdit)
+* Tools (editing programs such as Skyrim Special Edition Edit (SSEEdit)
 * Patchers
 * Virtual Folders
 
